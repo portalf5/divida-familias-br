@@ -7,6 +7,18 @@ Indicador oficial do Banco Central do Brasil mostra que o endividamento das fam�
 
 **Acesse a reportagem:** https://portalf5.github.io/divida-familias-br
 
+**DOI:** https://doi.org/10.5281/zenodo.19663836
+
+---
+
+## Identificação e citação
+
+```
+Marinho, Wederson. (2026). portalf5/divida-familias-br: Endividamento das famílias 
+segue perto do recorde após 20 anos de alta estrutural (v1.0.0). Zenodo. 
+https://doi.org/10.5281/zenodo.19663836
+```
+
 ---
 
 ## Visão geral
