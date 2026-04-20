@@ -1,0 +1,2905 @@
+{
+  "gerado_em": "2026-04-19T23:30:39.614816",
+  "fonte": "Banco Central do Brasil — SGS 29038",
+  "licenca": "ODbL",
+  "serie": [
+    {
+      "data": "2005-01-01",
+      "endividamento": 13.84,
+      "selic": 17.93,
+      "ipca": 0.58,
+      "desemprego": null
+    },
+    {
+      "data": "2005-02-01",
+      "endividamento": 14.19,
+      "selic": 18.47,
+      "ipca": 0.59,
+      "desemprego": null
+    },
+    {
+      "data": "2005-03-01",
+      "endividamento": 14.56,
+      "selic": 18.97,
+      "ipca": 0.61,
+      "desemprego": null
+    },
+    {
+      "data": "2005-04-01",
+      "endividamento": 14.96,
+      "selic": 19.32,
+      "ipca": 0.87,
+      "desemprego": null
+    },
+    {
+      "data": "2005-05-01",
+      "endividamento": 15.32,
+      "selic": 19.61,
+      "ipca": 0.49,
+      "desemprego": null
+    },
+    {
+      "data": "2005-06-01",
+      "endividamento": 15.48,
+      "selic": 19.75,
+      "ipca": -0.02,
+      "desemprego": null
+    },
+    {
+      "data": "2005-07-01",
+      "endividamento": 15.74,
+      "selic": 19.72,
+      "ipca": 0.25,
+      "desemprego": null
+    },
+    {
+      "data": "2005-08-01",
+      "endividamento": 16.19,
+      "selic": 19.75,
+      "ipca": 0.17,
+      "desemprego": null
+    },
+    {
+      "data": "2005-09-01",
+      "endividamento": 16.43,
+      "selic": 19.61,
+      "ipca": 0.35,
+      "desemprego": null
+    },
+    {
+      "data": "2005-10-01",
+      "endividamento": 16.68,
+      "selic": 19.25,
+      "ipca": 0.75,
+      "desemprego": null
+    },
+    {
+      "data": "2005-11-01",
+      "endividamento": 16.92,
+      "selic": 18.87,
+      "ipca": 0.55,
+      "desemprego": null
+    },
+    {
+      "data": "2005-12-01",
+      "endividamento": 16.84,
+      "selic": 18.24,
+      "ipca": 0.36,
+      "desemprego": null
+    },
+    {
+      "data": "2006-01-01",
+      "endividamento": 17.14,
+      "selic": 17.65,
+      "ipca": 0.59,
+      "desemprego": null
+    },
+    {
+      "data": "2006-02-01",
+      "endividamento": 17.36,
+      "selic": 17.28,
+      "ipca": 0.41,
+      "desemprego": null
+    },
+    {
+      "data": "2006-03-01",
+      "endividamento": 17.66,
+      "selic": 16.74,
+      "ipca": 0.43,
+      "desemprego": null
+    },
+    {
+      "data": "2006-04-01",
+      "endividamento": 17.96,
+      "selic": 16.19,
+      "ipca": 0.21,
+      "desemprego": null
+    },
+    {
+      "data": "2006-05-01",
+      "endividamento": 18.23,
+      "selic": 15.7,
+      "ipca": 0.1,
+      "desemprego": null
+    },
+    {
+      "data": "2006-06-01",
+      "endividamento": 18.28,
+      "selic": 15.18,
+      "ipca": -0.21,
+      "desemprego": null
+    },
+    {
+      "data": "2006-07-01",
+      "endividamento": 18.47,
+      "selic": 14.98,
+      "ipca": 0.19,
+      "desemprego": null
+    },
+    {
+      "data": "2006-08-01",
+      "endividamento": 18.71,
+      "selic": 14.66,
+      "ipca": 0.05,
+      "desemprego": null
+    },
+    {
+      "data": "2006-09-01",
+      "endividamento": 18.81,
+      "selic": 14.17,
+      "ipca": 0.21,
+      "desemprego": null
+    },
+    {
+      "data": "2006-10-01",
+      "endividamento": 18.89,
+      "selic": 13.95,
+      "ipca": 0.33,
+      "desemprego": null
+    },
+    {
+      "data": "2006-11-01",
+      "endividamento": 19.08,
+      "selic": 13.65,
+      "ipca": 0.31,
+      "desemprego": null
+    },
+    {
+      "data": "2006-12-01",
+      "endividamento": 18.99,
+      "selic": 13.19,
+      "ipca": 0.48,
+      "desemprego": null
+    },
+    {
+      "data": "2007-01-01",
+      "endividamento": 19.24,
+      "selic": 13.13,
+      "ipca": 0.44,
+      "desemprego": null
+    },
+    {
+      "data": "2007-02-01",
+      "endividamento": 19.43,
+      "selic": 12.93,
+      "ipca": 0.44,
+      "desemprego": null
+    },
+    {
+      "data": "2007-03-01",
+      "endividamento": 19.07,
+      "selic": 12.74,
+      "ipca": 0.37,
+      "desemprego": null
+    },
+    {
+      "data": "2007-04-01",
+      "endividamento": 19.38,
+      "selic": 12.58,
+      "ipca": 0.25,
+      "desemprego": null
+    },
+    {
+      "data": "2007-05-01",
+      "endividamento": 19.87,
+      "selic": 12.43,
+      "ipca": 0.28,
+      "desemprego": null
+    },
+    {
+      "data": "2007-06-01",
+      "endividamento": 20.05,
+      "selic": 12.03,
+      "ipca": 0.28,
+      "desemprego": null
+    },
+    {
+      "data": "2007-07-01",
+      "endividamento": 20.52,
+      "selic": 11.73,
+      "ipca": 0.24,
+      "desemprego": null
+    },
+    {
+      "data": "2007-08-01",
+      "endividamento": 20.68,
+      "selic": 11.43,
+      "ipca": 0.47,
+      "desemprego": null
+    },
+    {
+      "data": "2007-09-01",
+      "endividamento": 20.85,
+      "selic": 11.22,
+      "ipca": 0.18,
+      "desemprego": null
+    },
+    {
+      "data": "2007-10-01",
+      "endividamento": 21.41,
+      "selic": 11.18,
+      "ipca": 0.3,
+      "desemprego": null
+    },
+    {
+      "data": "2007-11-01",
+      "endividamento": 21.7,
+      "selic": 11.18,
+      "ipca": 0.38,
+      "desemprego": null
+    },
+    {
+      "data": "2007-12-01",
+      "endividamento": 21.74,
+      "selic": 11.18,
+      "ipca": 0.74,
+      "desemprego": null
+    },
+    {
+      "data": "2008-01-01",
+      "endividamento": 22.05,
+      "selic": 11.18,
+      "ipca": 0.54,
+      "desemprego": null
+    },
+    {
+      "data": "2008-02-01",
+      "endividamento": 22.24,
+      "selic": 11.18,
+      "ipca": 0.49,
+      "desemprego": null
+    },
+    {
+      "data": "2008-03-01",
+      "endividamento": 22.68,
+      "selic": 11.18,
+      "ipca": 0.48,
+      "desemprego": null
+    },
+    {
+      "data": "2008-04-01",
+      "endividamento": 23.09,
+      "selic": 11.37,
+      "ipca": 0.55,
+      "desemprego": null
+    },
+    {
+      "data": "2008-05-01",
+      "endividamento": 23.39,
+      "selic": 11.63,
+      "ipca": 0.79,
+      "desemprego": null
+    },
+    {
+      "data": "2008-06-01",
+      "endividamento": 23.44,
+      "selic": 12.09,
+      "ipca": 0.74,
+      "desemprego": null
+    },
+    {
+      "data": "2008-07-01",
+      "endividamento": 23.6,
+      "selic": 12.36,
+      "ipca": 0.53,
+      "desemprego": null
+    },
+    {
+      "data": "2008-08-01",
+      "endividamento": 23.63,
+      "selic": 12.92,
+      "ipca": 0.28,
+      "desemprego": null
+    },
+    {
+      "data": "2008-09-01",
+      "endividamento": 23.7,
+      "selic": 13.39,
+      "ipca": 0.26,
+      "desemprego": null
+    },
+    {
+      "data": "2008-10-01",
+      "endividamento": 24.01,
+      "selic": 13.66,
+      "ipca": 0.45,
+      "desemprego": null
+    },
+    {
+      "data": "2008-11-01",
+      "endividamento": 23.62,
+      "selic": 13.64,
+      "ipca": 0.36,
+      "desemprego": null
+    },
+    {
+      "data": "2008-12-01",
+      "endividamento": 23.53,
+      "selic": 13.66,
+      "ipca": 0.28,
+      "desemprego": null
+    },
+    {
+      "data": "2009-01-01",
+      "endividamento": 23.32,
+      "selic": 13.32,
+      "ipca": 0.48,
+      "desemprego": null
+    },
+    {
+      "data": "2009-02-01",
+      "endividamento": 23.28,
+      "selic": 12.66,
+      "ipca": 0.55,
+      "desemprego": null
+    },
+    {
+      "data": "2009-03-01",
+      "endividamento": 23.27,
+      "selic": 11.7,
+      "ipca": 0.2,
+      "desemprego": null
+    },
+    {
+      "data": "2009-04-01",
+      "endividamento": 23.38,
+      "selic": 11.11,
+      "ipca": 0.48,
+      "desemprego": null
+    },
+    {
+      "data": "2009-05-01",
+      "endividamento": 23.65,
+      "selic": 10.16,
+      "ipca": 0.47,
+      "desemprego": null
+    },
+    {
+      "data": "2009-06-01",
+      "endividamento": 23.71,
+      "selic": 9.54,
+      "ipca": 0.36,
+      "desemprego": null
+    },
+    {
+      "data": "2009-07-01",
+      "endividamento": 23.72,
+      "selic": 9.01,
+      "ipca": 0.24,
+      "desemprego": null
+    },
+    {
+      "data": "2009-08-01",
+      "endividamento": 23.87,
+      "selic": 8.65,
+      "ipca": 0.15,
+      "desemprego": null
+    },
+    {
+      "data": "2009-09-01",
+      "endividamento": 24.07,
+      "selic": 8.65,
+      "ipca": 0.24,
+      "desemprego": null
+    },
+    {
+      "data": "2009-10-01",
+      "endividamento": 24.16,
+      "selic": 8.65,
+      "ipca": 0.28,
+      "desemprego": null
+    },
+    {
+      "data": "2009-11-01",
+      "endividamento": 24.31,
+      "selic": 8.65,
+      "ipca": 0.41,
+      "desemprego": null
+    },
+    {
+      "data": "2009-12-01",
+      "endividamento": 24.53,
+      "selic": 8.65,
+      "ipca": 0.37,
+      "desemprego": null
+    },
+    {
+      "data": "2010-01-01",
+      "endividamento": 24.65,
+      "selic": 8.65,
+      "ipca": 0.75,
+      "desemprego": null
+    },
+    {
+      "data": "2010-02-01",
+      "endividamento": 24.67,
+      "selic": 8.65,
+      "ipca": 0.78,
+      "desemprego": null
+    },
+    {
+      "data": "2010-03-01",
+      "endividamento": 24.92,
+      "selic": 8.65,
+      "ipca": 0.52,
+      "desemprego": null
+    },
+    {
+      "data": "2010-04-01",
+      "endividamento": 25.11,
+      "selic": 8.72,
+      "ipca": 0.57,
+      "desemprego": null
+    },
+    {
+      "data": "2010-05-01",
+      "endividamento": 25.45,
+      "selic": 9.4,
+      "ipca": 0.43,
+      "desemprego": null
+    },
+    {
+      "data": "2010-06-01",
+      "endividamento": 25.51,
+      "selic": 9.94,
+      "ipca": 0.0,
+      "desemprego": null
+    },
+    {
+      "data": "2010-07-01",
+      "endividamento": 25.94,
+      "selic": 10.32,
+      "ipca": 0.01,
+      "desemprego": null
+    },
+    {
+      "data": "2010-08-01",
+      "endividamento": 26.09,
+      "selic": 10.66,
+      "ipca": 0.04,
+      "desemprego": null
+    },
+    {
+      "data": "2010-09-01",
+      "endividamento": 26.22,
+      "selic": 10.66,
+      "ipca": 0.45,
+      "desemprego": null
+    },
+    {
+      "data": "2010-10-01",
+      "endividamento": 26.39,
+      "selic": 10.66,
+      "ipca": 0.75,
+      "desemprego": null
+    },
+    {
+      "data": "2010-11-01",
+      "endividamento": 26.74,
+      "selic": 10.66,
+      "ipca": 0.83,
+      "desemprego": null
+    },
+    {
+      "data": "2010-12-01",
+      "endividamento": 27.04,
+      "selic": 10.66,
+      "ipca": 0.63,
+      "desemprego": null
+    },
+    {
+      "data": "2011-01-01",
+      "endividamento": 27.06,
+      "selic": 10.85,
+      "ipca": 0.83,
+      "desemprego": null
+    },
+    {
+      "data": "2011-02-01",
+      "endividamento": 27.07,
+      "selic": 11.17,
+      "ipca": 0.8,
+      "desemprego": null
+    },
+    {
+      "data": "2011-03-01",
+      "endividamento": 27.56,
+      "selic": 11.62,
+      "ipca": 0.79,
+      "desemprego": null
+    },
+    {
+      "data": "2011-04-01",
+      "endividamento": 27.53,
+      "selic": 11.74,
+      "ipca": 0.77,
+      "desemprego": null
+    },
+    {
+      "data": "2011-05-01",
+      "endividamento": 27.56,
+      "selic": 11.92,
+      "ipca": 0.47,
+      "desemprego": null
+    },
+    {
+      "data": "2011-06-01",
+      "endividamento": 27.55,
+      "selic": 12.1,
+      "ipca": 0.15,
+      "desemprego": null
+    },
+    {
+      "data": "2011-07-01",
+      "endividamento": 27.45,
+      "selic": 12.25,
+      "ipca": 0.16,
+      "desemprego": null
+    },
+    {
+      "data": "2011-08-01",
+      "endividamento": 27.68,
+      "selic": 12.42,
+      "ipca": 0.37,
+      "desemprego": null
+    },
+    {
+      "data": "2011-09-01",
+      "endividamento": 27.86,
+      "selic": 11.91,
+      "ipca": 0.53,
+      "desemprego": null
+    },
+    {
+      "data": "2011-10-01",
+      "endividamento": 27.89,
+      "selic": 11.7,
+      "ipca": 0.43,
+      "desemprego": null
+    },
+    {
+      "data": "2011-11-01",
+      "endividamento": 27.81,
+      "selic": 11.4,
+      "ipca": 0.52,
+      "desemprego": null
+    },
+    {
+      "data": "2011-12-01",
+      "endividamento": 27.73,
+      "selic": 10.9,
+      "ipca": 0.5,
+      "desemprego": null
+    },
+    {
+      "data": "2012-01-01",
+      "endividamento": 27.81,
+      "selic": 10.7,
+      "ipca": 0.56,
+      "desemprego": null
+    },
+    {
+      "data": "2012-02-01",
+      "endividamento": 27.7,
+      "selic": 10.4,
+      "ipca": 0.45,
+      "desemprego": null
+    },
+    {
+      "data": "2012-03-01",
+      "endividamento": 27.6,
+      "selic": 9.82,
+      "ipca": 0.21,
+      "desemprego": 8.0
+    },
+    {
+      "data": "2012-04-01",
+      "endividamento": 27.58,
+      "selic": 9.35,
+      "ipca": 0.64,
+      "desemprego": 7.8
+    },
+    {
+      "data": "2012-05-01",
+      "endividamento": 27.65,
+      "selic": 8.87,
+      "ipca": 0.36,
+      "desemprego": 7.7
+    },
+    {
+      "data": "2012-06-01",
+      "endividamento": 27.65,
+      "selic": 8.39,
+      "ipca": 0.08,
+      "desemprego": 7.6
+    },
+    {
+      "data": "2012-07-01",
+      "endividamento": 27.59,
+      "selic": 8.07,
+      "ipca": 0.43,
+      "desemprego": 7.5
+    },
+    {
+      "data": "2012-08-01",
+      "endividamento": 27.55,
+      "selic": 7.85,
+      "ipca": 0.41,
+      "desemprego": 7.3
+    },
+    {
+      "data": "2012-09-01",
+      "endividamento": 27.29,
+      "selic": 7.39,
+      "ipca": 0.57,
+      "desemprego": 7.1
+    },
+    {
+      "data": "2012-10-01",
+      "endividamento": 27.33,
+      "selic": 7.23,
+      "ipca": 0.59,
+      "desemprego": 6.9
+    },
+    {
+      "data": "2012-11-01",
+      "endividamento": 27.35,
+      "selic": 7.14,
+      "ipca": 0.6,
+      "desemprego": 6.8
+    },
+    {
+      "data": "2012-12-01",
+      "endividamento": 27.33,
+      "selic": 7.16,
+      "ipca": 0.79,
+      "desemprego": 6.9
+    },
+    {
+      "data": "2013-01-01",
+      "endividamento": 27.32,
+      "selic": 7.11,
+      "ipca": 0.86,
+      "desemprego": 7.2
+    },
+    {
+      "data": "2013-02-01",
+      "endividamento": 27.22,
+      "selic": 7.12,
+      "ipca": 0.6,
+      "desemprego": 7.8
+    },
+    {
+      "data": "2013-03-01",
+      "endividamento": 26.92,
+      "selic": 7.15,
+      "ipca": 0.47,
+      "desemprego": 8.0
+    },
+    {
+      "data": "2013-04-01",
+      "endividamento": 26.88,
+      "selic": 7.26,
+      "ipca": 0.55,
+      "desemprego": 7.9
+    },
+    {
+      "data": "2013-05-01",
+      "endividamento": 26.8,
+      "selic": 7.42,
+      "ipca": 0.37,
+      "desemprego": 7.6
+    },
+    {
+      "data": "2013-06-01",
+      "endividamento": 26.6,
+      "selic": 7.9,
+      "ipca": 0.26,
+      "desemprego": 7.5
+    },
+    {
+      "data": "2013-07-01",
+      "endividamento": 26.56,
+      "selic": 8.23,
+      "ipca": 0.03,
+      "desemprego": 7.4
+    },
+    {
+      "data": "2013-08-01",
+      "endividamento": 26.46,
+      "selic": 8.45,
+      "ipca": 0.24,
+      "desemprego": 7.2
+    },
+    {
+      "data": "2013-09-01",
+      "endividamento": 26.24,
+      "selic": 8.9,
+      "ipca": 0.35,
+      "desemprego": 7.0
+    },
+    {
+      "data": "2013-10-01",
+      "endividamento": 26.14,
+      "selic": 9.25,
+      "ipca": 0.57,
+      "desemprego": 6.8
+    },
+    {
+      "data": "2013-11-01",
+      "endividamento": 26.01,
+      "selic": 9.45,
+      "ipca": 0.54,
+      "desemprego": 6.5
+    },
+    {
+      "data": "2013-12-01",
+      "endividamento": 25.86,
+      "selic": 9.9,
+      "ipca": 0.92,
+      "desemprego": 6.2
+    },
+    {
+      "data": "2014-01-01",
+      "endividamento": 25.75,
+      "selic": 10.17,
+      "ipca": 0.55,
+      "desemprego": 6.5
+    },
+    {
+      "data": "2014-02-01",
+      "endividamento": 25.54,
+      "selic": 10.43,
+      "ipca": 0.69,
+      "desemprego": 6.8
+    },
+    {
+      "data": "2014-03-01",
+      "endividamento": 25.3,
+      "selic": 10.65,
+      "ipca": 0.92,
+      "desemprego": 7.2
+    },
+    {
+      "data": "2014-04-01",
+      "endividamento": 25.15,
+      "selic": 10.87,
+      "ipca": 0.67,
+      "desemprego": 7.2
+    },
+    {
+      "data": "2014-05-01",
+      "endividamento": 25.07,
+      "selic": 10.9,
+      "ipca": 0.46,
+      "desemprego": 7.0
+    },
+    {
+      "data": "2014-06-01",
+      "endividamento": 25.04,
+      "selic": 10.9,
+      "ipca": 0.4,
+      "desemprego": 6.9
+    },
+    {
+      "data": "2014-07-01",
+      "endividamento": 24.93,
+      "selic": 10.9,
+      "ipca": 0.01,
+      "desemprego": 7.0
+    },
+    {
+      "data": "2014-08-01",
+      "endividamento": 24.83,
+      "selic": 10.9,
+      "ipca": 0.25,
+      "desemprego": 7.0
+    },
+    {
+      "data": "2014-09-01",
+      "endividamento": 24.81,
+      "selic": 10.9,
+      "ipca": 0.57,
+      "desemprego": 6.8
+    },
+    {
+      "data": "2014-10-01",
+      "endividamento": 24.83,
+      "selic": 10.92,
+      "ipca": 0.42,
+      "desemprego": 6.7
+    },
+    {
+      "data": "2014-11-01",
+      "endividamento": 24.66,
+      "selic": 11.15,
+      "ipca": 0.51,
+      "desemprego": 6.6
+    },
+    {
+      "data": "2014-12-01",
+      "endividamento": 24.73,
+      "selic": 11.58,
+      "ipca": 0.78,
+      "desemprego": 6.6
+    },
+    {
+      "data": "2015-01-01",
+      "endividamento": 24.82,
+      "selic": 11.82,
+      "ipca": 1.24,
+      "desemprego": 6.9
+    },
+    {
+      "data": "2015-02-01",
+      "endividamento": 24.7,
+      "selic": 12.15,
+      "ipca": 1.22,
+      "desemprego": 7.5
+    },
+    {
+      "data": "2015-03-01",
+      "endividamento": 24.62,
+      "selic": 12.58,
+      "ipca": 1.32,
+      "desemprego": 8.0
+    },
+    {
+      "data": "2015-04-01",
+      "endividamento": 24.62,
+      "selic": 12.68,
+      "ipca": 0.71,
+      "desemprego": 8.1
+    },
+    {
+      "data": "2015-05-01",
+      "endividamento": 24.55,
+      "selic": 13.15,
+      "ipca": 0.74,
+      "desemprego": 8.2
+    },
+    {
+      "data": "2015-06-01",
+      "endividamento": 24.5,
+      "selic": 13.58,
+      "ipca": 0.79,
+      "desemprego": 8.4
+    },
+    {
+      "data": "2015-07-01",
+      "endividamento": 24.58,
+      "selic": 13.69,
+      "ipca": 0.62,
+      "desemprego": 8.6
+    },
+    {
+      "data": "2015-08-01",
+      "endividamento": 24.61,
+      "selic": 14.15,
+      "ipca": 0.22,
+      "desemprego": 8.8
+    },
+    {
+      "data": "2015-09-01",
+      "endividamento": 24.68,
+      "selic": 14.15,
+      "ipca": 0.54,
+      "desemprego": 9.0
+    },
+    {
+      "data": "2015-10-01",
+      "endividamento": 24.6,
+      "selic": 14.15,
+      "ipca": 0.82,
+      "desemprego": 9.1
+    },
+    {
+      "data": "2015-11-01",
+      "endividamento": 24.39,
+      "selic": 14.15,
+      "ipca": 1.01,
+      "desemprego": 9.1
+    },
+    {
+      "data": "2015-12-01",
+      "endividamento": 23.99,
+      "selic": 14.15,
+      "ipca": 0.96,
+      "desemprego": 9.1
+    },
+    {
+      "data": "2016-01-01",
+      "endividamento": 23.92,
+      "selic": 14.15,
+      "ipca": 1.27,
+      "desemprego": 9.6
+    },
+    {
+      "data": "2016-02-01",
+      "endividamento": 23.65,
+      "selic": 14.15,
+      "ipca": 0.9,
+      "desemprego": 10.3
+    },
+    {
+      "data": "2016-03-01",
+      "endividamento": 23.46,
+      "selic": 14.15,
+      "ipca": 0.43,
+      "desemprego": 11.0
+    },
+    {
+      "data": "2016-04-01",
+      "endividamento": 23.26,
+      "selic": 14.15,
+      "ipca": 0.61,
+      "desemprego": 11.3
+    },
+    {
+      "data": "2016-05-01",
+      "endividamento": 23.17,
+      "selic": 14.15,
+      "ipca": 0.78,
+      "desemprego": 11.3
+    },
+    {
+      "data": "2016-06-01",
+      "endividamento": 23.02,
+      "selic": 14.15,
+      "ipca": 0.35,
+      "desemprego": 11.4
+    },
+    {
+      "data": "2016-07-01",
+      "endividamento": 22.83,
+      "selic": 14.15,
+      "ipca": 0.52,
+      "desemprego": 11.7
+    },
+    {
+      "data": "2016-08-01",
+      "endividamento": 22.73,
+      "selic": 14.15,
+      "ipca": 0.44,
+      "desemprego": 11.9
+    },
+    {
+      "data": "2016-09-01",
+      "endividamento": 22.52,
+      "selic": 14.15,
+      "ipca": 0.08,
+      "desemprego": 11.9
+    },
+    {
+      "data": "2016-10-01",
+      "endividamento": 22.45,
+      "selic": 14.05,
+      "ipca": 0.26,
+      "desemprego": 11.9
+    },
+    {
+      "data": "2016-11-01",
+      "endividamento": 22.45,
+      "selic": 13.9,
+      "ipca": 0.18,
+      "desemprego": 12.0
+    },
+    {
+      "data": "2016-12-01",
+      "endividamento": 22.27,
+      "selic": 13.65,
+      "ipca": 0.3,
+      "desemprego": 12.1
+    },
+    {
+      "data": "2017-01-01",
+      "endividamento": 22.17,
+      "selic": 13.17,
+      "ipca": 0.38,
+      "desemprego": 12.7
+    },
+    {
+      "data": "2017-02-01",
+      "endividamento": 22.01,
+      "selic": 12.82,
+      "ipca": 0.33,
+      "desemprego": 13.3
+    },
+    {
+      "data": "2017-03-01",
+      "endividamento": 21.95,
+      "selic": 12.15,
+      "ipca": 0.25,
+      "desemprego": 13.9
+    },
+    {
+      "data": "2017-04-01",
+      "endividamento": 21.68,
+      "selic": 11.59,
+      "ipca": 0.14,
+      "desemprego": 13.7
+    },
+    {
+      "data": "2017-05-01",
+      "endividamento": 21.66,
+      "selic": 11.15,
+      "ipca": 0.31,
+      "desemprego": 13.4
+    },
+    {
+      "data": "2017-06-01",
+      "endividamento": 21.62,
+      "selic": 10.15,
+      "ipca": -0.23,
+      "desemprego": 13.1
+    },
+    {
+      "data": "2017-07-01",
+      "endividamento": 21.6,
+      "selic": 10.01,
+      "ipca": 0.24,
+      "desemprego": 12.9
+    },
+    {
+      "data": "2017-08-01",
+      "endividamento": 21.63,
+      "selic": 9.15,
+      "ipca": 0.19,
+      "desemprego": 12.7
+    },
+    {
+      "data": "2017-09-01",
+      "endividamento": 21.53,
+      "selic": 8.35,
+      "ipca": 0.16,
+      "desemprego": 12.5
+    },
+    {
+      "data": "2017-10-01",
+      "endividamento": 21.63,
+      "selic": 8.01,
+      "ipca": 0.42,
+      "desemprego": 12.3
+    },
+    {
+      "data": "2017-11-01",
+      "endividamento": 21.74,
+      "selic": 7.4,
+      "ipca": 0.28,
+      "desemprego": 12.1
+    },
+    {
+      "data": "2017-12-01",
+      "endividamento": 21.65,
+      "selic": 7.0,
+      "ipca": 0.44,
+      "desemprego": 11.9
+    },
+    {
+      "data": "2018-01-01",
+      "endividamento": 21.77,
+      "selic": 6.9,
+      "ipca": 0.29,
+      "desemprego": 12.3
+    },
+    {
+      "data": "2018-02-01",
+      "endividamento": 21.73,
+      "selic": 6.72,
+      "ipca": 0.32,
+      "desemprego": 12.7
+    },
+    {
+      "data": "2018-03-01",
+      "endividamento": 21.76,
+      "selic": 6.58,
+      "ipca": 0.09,
+      "desemprego": 13.2
+    },
+    {
+      "data": "2018-04-01",
+      "endividamento": 21.92,
+      "selic": 6.4,
+      "ipca": 0.22,
+      "desemprego": 13.0
+    },
+    {
+      "data": "2018-05-01",
+      "endividamento": 22.12,
+      "selic": 6.4,
+      "ipca": 0.4,
+      "desemprego": 12.8
+    },
+    {
+      "data": "2018-06-01",
+      "endividamento": 22.19,
+      "selic": 6.4,
+      "ipca": 1.26,
+      "desemprego": 12.6
+    },
+    {
+      "data": "2018-07-01",
+      "endividamento": 22.21,
+      "selic": 6.4,
+      "ipca": 0.33,
+      "desemprego": 12.4
+    },
+    {
+      "data": "2018-08-01",
+      "endividamento": 22.43,
+      "selic": 6.4,
+      "ipca": -0.09,
+      "desemprego": 12.2
+    },
+    {
+      "data": "2018-09-01",
+      "endividamento": 22.4,
+      "selic": 6.4,
+      "ipca": 0.48,
+      "desemprego": 12.0
+    },
+    {
+      "data": "2018-10-01",
+      "endividamento": 22.65,
+      "selic": 6.4,
+      "ipca": 0.45,
+      "desemprego": 11.8
+    },
+    {
+      "data": "2018-11-01",
+      "endividamento": 23.07,
+      "selic": 6.4,
+      "ipca": -0.21,
+      "desemprego": 11.7
+    },
+    {
+      "data": "2018-12-01",
+      "endividamento": 23.24,
+      "selic": 6.4,
+      "ipca": 0.15,
+      "desemprego": 11.7
+    },
+    {
+      "data": "2019-01-01",
+      "endividamento": 23.5,
+      "selic": 6.4,
+      "ipca": 0.32,
+      "desemprego": 12.2
+    },
+    {
+      "data": "2019-02-01",
+      "endividamento": 23.69,
+      "selic": 6.4,
+      "ipca": 0.43,
+      "desemprego": 12.5
+    },
+    {
+      "data": "2019-03-01",
+      "endividamento": 23.71,
+      "selic": 6.4,
+      "ipca": 0.75,
+      "desemprego": 12.8
+    },
+    {
+      "data": "2019-04-01",
+      "endividamento": 23.92,
+      "selic": 6.4,
+      "ipca": 0.57,
+      "desemprego": 12.6
+    },
+    {
+      "data": "2019-05-01",
+      "endividamento": 24.19,
+      "selic": 6.4,
+      "ipca": 0.13,
+      "desemprego": 12.4
+    },
+    {
+      "data": "2019-06-01",
+      "endividamento": 24.48,
+      "selic": 6.4,
+      "ipca": 0.01,
+      "desemprego": 12.1
+    },
+    {
+      "data": "2019-07-01",
+      "endividamento": 24.68,
+      "selic": 6.4,
+      "ipca": 0.19,
+      "desemprego": 11.9
+    },
+    {
+      "data": "2019-08-01",
+      "endividamento": 25.04,
+      "selic": 5.9,
+      "ipca": 0.11,
+      "desemprego": 11.9
+    },
+    {
+      "data": "2019-09-01",
+      "endividamento": 25.14,
+      "selic": 5.71,
+      "ipca": -0.04,
+      "desemprego": 11.9
+    },
+    {
+      "data": "2019-10-01",
+      "endividamento": 25.3,
+      "selic": 5.38,
+      "ipca": 0.1,
+      "desemprego": 11.7
+    },
+    {
+      "data": "2019-11-01",
+      "endividamento": 25.5,
+      "selic": 4.9,
+      "ipca": 0.51,
+      "desemprego": 11.3
+    },
+    {
+      "data": "2019-12-01",
+      "endividamento": 25.52,
+      "selic": 4.59,
+      "ipca": 1.15,
+      "desemprego": 11.1
+    },
+    {
+      "data": "2020-01-01",
+      "endividamento": 25.65,
+      "selic": 4.4,
+      "ipca": 0.21,
+      "desemprego": 11.3
+    },
+    {
+      "data": "2020-02-01",
+      "endividamento": 25.62,
+      "selic": 4.19,
+      "ipca": 0.25,
+      "desemprego": 11.7
+    },
+    {
+      "data": "2020-03-01",
+      "endividamento": 25.62,
+      "selic": 3.95,
+      "ipca": 0.07,
+      "desemprego": 12.4
+    },
+    {
+      "data": "2020-04-01",
+      "endividamento": 25.0,
+      "selic": 3.65,
+      "ipca": -0.31,
+      "desemprego": 12.7
+    },
+    {
+      "data": "2020-05-01",
+      "endividamento": 24.29,
+      "selic": 3.01,
+      "ipca": -0.38,
+      "desemprego": 13.1
+    },
+    {
+      "data": "2020-06-01",
+      "endividamento": 23.8,
+      "selic": 2.58,
+      "ipca": 0.26,
+      "desemprego": 13.6
+    },
+    {
+      "data": "2020-07-01",
+      "endividamento": 23.72,
+      "selic": 2.15,
+      "ipca": 0.36,
+      "desemprego": 14.1
+    },
+    {
+      "data": "2020-08-01",
+      "endividamento": 23.72,
+      "selic": 1.94,
+      "ipca": 0.24,
+      "desemprego": 14.8
+    },
+    {
+      "data": "2020-09-01",
+      "endividamento": 24.01,
+      "selic": 1.9,
+      "ipca": 0.64,
+      "desemprego": 14.9
+    },
+    {
+      "data": "2020-10-01",
+      "endividamento": 24.48,
+      "selic": 1.9,
+      "ipca": 0.86,
+      "desemprego": 14.6
+    },
+    {
+      "data": "2020-11-01",
+      "endividamento": 25.12,
+      "selic": 1.9,
+      "ipca": 0.89,
+      "desemprego": 14.3
+    },
+    {
+      "data": "2020-12-01",
+      "endividamento": 25.61,
+      "selic": 1.9,
+      "ipca": 1.35,
+      "desemprego": 14.2
+    },
+    {
+      "data": "2021-01-01",
+      "endividamento": 25.8,
+      "selic": 1.9,
+      "ipca": 0.25,
+      "desemprego": 14.4
+    },
+    {
+      "data": "2021-02-01",
+      "endividamento": 25.9,
+      "selic": 1.9,
+      "ipca": 0.86,
+      "desemprego": 14.6
+    },
+    {
+      "data": "2021-03-01",
+      "endividamento": 25.98,
+      "selic": 2.23,
+      "ipca": 0.93,
+      "desemprego": 14.9
+    },
+    {
+      "data": "2021-04-01",
+      "endividamento": 26.27,
+      "selic": 2.65,
+      "ipca": 0.31,
+      "desemprego": 14.8
+    },
+    {
+      "data": "2021-05-01",
+      "endividamento": 26.9,
+      "selic": 3.29,
+      "ipca": 0.83,
+      "desemprego": 14.7
+    },
+    {
+      "data": "2021-06-01",
+      "endividamento": 27.39,
+      "selic": 3.76,
+      "ipca": 0.53,
+      "desemprego": 14.2
+    },
+    {
+      "data": "2021-07-01",
+      "endividamento": 27.83,
+      "selic": 4.15,
+      "ipca": 0.96,
+      "desemprego": 13.7
+    },
+    {
+      "data": "2021-08-01",
+      "endividamento": 28.72,
+      "selic": 5.01,
+      "ipca": 0.87,
+      "desemprego": 13.2
+    },
+    {
+      "data": "2021-09-01",
+      "endividamento": 29.46,
+      "selic": 5.43,
+      "ipca": 1.16,
+      "desemprego": 12.7
+    },
+    {
+      "data": "2021-10-01",
+      "endividamento": 29.99,
+      "selic": 6.3,
+      "ipca": 1.25,
+      "desemprego": 12.1
+    },
+    {
+      "data": "2021-11-01",
+      "endividamento": 30.59,
+      "selic": 7.65,
+      "ipca": 0.95,
+      "desemprego": 11.6
+    },
+    {
+      "data": "2021-12-01",
+      "endividamento": 31.01,
+      "selic": 8.76,
+      "ipca": 0.73,
+      "desemprego": 11.1
+    },
+    {
+      "data": "2022-01-01",
+      "endividamento": 31.17,
+      "selic": 9.15,
+      "ipca": 0.54,
+      "desemprego": 11.2
+    },
+    {
+      "data": "2022-02-01",
+      "endividamento": 31.05,
+      "selic": 10.49,
+      "ipca": 1.01,
+      "desemprego": 11.2
+    },
+    {
+      "data": "2022-03-01",
+      "endividamento": 31.09,
+      "selic": 11.15,
+      "ipca": 1.62,
+      "desemprego": 11.1
+    },
+    {
+      "data": "2022-04-01",
+      "endividamento": 31.3,
+      "selic": 11.65,
+      "ipca": 1.06,
+      "desemprego": 10.5
+    },
+    {
+      "data": "2022-05-01",
+      "endividamento": 31.25,
+      "selic": 12.51,
+      "ipca": 0.47,
+      "desemprego": 9.8
+    },
+    {
+      "data": "2022-06-01",
+      "endividamento": 31.35,
+      "selic": 12.89,
+      "ipca": 0.67,
+      "desemprego": 9.3
+    },
+    {
+      "data": "2022-07-01",
+      "endividamento": 31.48,
+      "selic": 13.15,
+      "ipca": -0.68,
+      "desemprego": 9.1
+    },
+    {
+      "data": "2022-08-01",
+      "endividamento": 31.38,
+      "selic": 13.58,
+      "ipca": -0.36,
+      "desemprego": 8.9
+    },
+    {
+      "data": "2022-09-01",
+      "endividamento": 31.32,
+      "selic": 13.65,
+      "ipca": -0.29,
+      "desemprego": 8.7
+    },
+    {
+      "data": "2022-10-01",
+      "endividamento": 31.54,
+      "selic": 13.65,
+      "ipca": 0.59,
+      "desemprego": 8.3
+    },
+    {
+      "data": "2022-11-01",
+      "endividamento": 31.39,
+      "selic": 13.65,
+      "ipca": 0.41,
+      "desemprego": 8.1
+    },
+    {
+      "data": "2022-12-01",
+      "endividamento": 31.07,
+      "selic": 13.65,
+      "ipca": 0.62,
+      "desemprego": 7.9
+    },
+    {
+      "data": "2023-01-01",
+      "endividamento": 31.09,
+      "selic": 13.65,
+      "ipca": 0.53,
+      "desemprego": 8.4
+    },
+    {
+      "data": "2023-02-01",
+      "endividamento": 30.86,
+      "selic": 13.65,
+      "ipca": 0.84,
+      "desemprego": 8.6
+    },
+    {
+      "data": "2023-03-01",
+      "endividamento": 30.74,
+      "selic": 13.65,
+      "ipca": 0.71,
+      "desemprego": 8.8
+    },
+    {
+      "data": "2023-04-01",
+      "endividamento": 30.66,
+      "selic": 13.65,
+      "ipca": 0.61,
+      "desemprego": 8.5
+    },
+    {
+      "data": "2023-05-01",
+      "endividamento": 30.87,
+      "selic": 13.65,
+      "ipca": 0.23,
+      "desemprego": 8.3
+    },
+    {
+      "data": "2023-06-01",
+      "endividamento": 30.46,
+      "selic": 13.65,
+      "ipca": -0.08,
+      "desemprego": 8.0
+    },
+    {
+      "data": "2023-07-01",
+      "endividamento": 30.13,
+      "selic": 13.65,
+      "ipca": 0.12,
+      "desemprego": 7.9
+    },
+    {
+      "data": "2023-08-01",
+      "endividamento": 30.28,
+      "selic": 13.19,
+      "ipca": 0.23,
+      "desemprego": 7.8
+    },
+    {
+      "data": "2023-09-01",
+      "endividamento": 30.11,
+      "selic": 12.97,
+      "ipca": 0.26,
+      "desemprego": 7.7
+    },
+    {
+      "data": "2023-10-01",
+      "endividamento": 30.16,
+      "selic": 12.65,
+      "ipca": 0.24,
+      "desemprego": 7.6
+    },
+    {
+      "data": "2023-11-01",
+      "endividamento": 30.16,
+      "selic": 12.17,
+      "ipca": 0.28,
+      "desemprego": 7.5
+    },
+    {
+      "data": "2023-12-01",
+      "endividamento": 29.84,
+      "selic": 11.87,
+      "ipca": 0.56,
+      "desemprego": 7.4
+    },
+    {
+      "data": "2024-01-01",
+      "endividamento": 30.06,
+      "selic": 11.65,
+      "ipca": 0.42,
+      "desemprego": 7.6
+    },
+    {
+      "data": "2024-02-01",
+      "endividamento": 30.0,
+      "selic": 11.15,
+      "ipca": 0.83,
+      "desemprego": 7.8
+    },
+    {
+      "data": "2024-03-01",
+      "endividamento": 29.97,
+      "selic": 11.0,
+      "ipca": 0.16,
+      "desemprego": 7.9
+    },
+    {
+      "data": "2024-04-01",
+      "endividamento": 29.94,
+      "selic": 10.65,
+      "ipca": 0.38,
+      "desemprego": 7.5
+    },
+    {
+      "data": "2024-05-01",
+      "endividamento": 29.82,
+      "selic": 10.46,
+      "ipca": 0.46,
+      "desemprego": 7.1
+    },
+    {
+      "data": "2024-06-01",
+      "endividamento": 29.86,
+      "selic": 10.4,
+      "ipca": 0.21,
+      "desemprego": 6.9
+    },
+    {
+      "data": "2024-07-01",
+      "endividamento": 29.97,
+      "selic": 10.4,
+      "ipca": 0.38,
+      "desemprego": 6.8
+    },
+    {
+      "data": "2024-08-01",
+      "endividamento": 30.09,
+      "selic": 10.4,
+      "ipca": -0.02,
+      "desemprego": 6.6
+    },
+    {
+      "data": "2024-09-01",
+      "endividamento": 30.04,
+      "selic": 10.5,
+      "ipca": 0.44,
+      "desemprego": 6.4
+    },
+    {
+      "data": "2024-10-01",
+      "endividamento": 30.09,
+      "selic": 10.65,
+      "ipca": 0.56,
+      "desemprego": 6.2
+    },
+    {
+      "data": "2024-11-01",
+      "endividamento": 30.28,
+      "selic": 11.04,
+      "ipca": 0.39,
+      "desemprego": 6.1
+    },
+    {
+      "data": "2024-12-01",
+      "endividamento": 30.33,
+      "selic": 11.77,
+      "ipca": 0.52,
+      "desemprego": 6.2
+    },
+    {
+      "data": "2025-01-01",
+      "endividamento": 30.55,
+      "selic": 12.24,
+      "ipca": 0.16,
+      "desemprego": 6.5
+    },
+    {
+      "data": "2025-02-01",
+      "endividamento": 30.5,
+      "selic": 13.15,
+      "ipca": 1.31,
+      "desemprego": 6.8
+    },
+    {
+      "data": "2025-03-01",
+      "endividamento": 30.76,
+      "selic": 13.57,
+      "ipca": 0.56,
+      "desemprego": 7.0
+    },
+    {
+      "data": "2025-04-01",
+      "endividamento": 30.7,
+      "selic": 14.15,
+      "ipca": 0.43,
+      "desemprego": 6.6
+    },
+    {
+      "data": "2025-05-01",
+      "endividamento": 30.62,
+      "selic": 14.55,
+      "ipca": 0.26,
+      "desemprego": 6.2
+    },
+    {
+      "data": "2025-06-01",
+      "endividamento": 30.56,
+      "selic": 14.74,
+      "ipca": 0.24,
+      "desemprego": 5.8
+    },
+    {
+      "data": "2025-07-01",
+      "endividamento": 30.47,
+      "selic": 14.9,
+      "ipca": 0.26,
+      "desemprego": 5.6
+    },
+    {
+      "data": "2025-08-01",
+      "endividamento": 30.64,
+      "selic": 14.9,
+      "ipca": -0.11,
+      "desemprego": 5.6
+    },
+    {
+      "data": "2025-09-01",
+      "endividamento": 30.72,
+      "selic": 14.9,
+      "ipca": 0.48,
+      "desemprego": 5.6
+    },
+    {
+      "data": "2025-10-01",
+      "endividamento": 30.95,
+      "selic": 14.9,
+      "ipca": 0.09,
+      "desemprego": 5.4
+    },
+    {
+      "data": "2025-11-01",
+      "endividamento": 31.22,
+      "selic": 14.9,
+      "ipca": 0.18,
+      "desemprego": 5.2
+    },
+    {
+      "data": "2025-12-01",
+      "endividamento": 31.23,
+      "selic": 14.9,
+      "ipca": 0.33,
+      "desemprego": 5.1
+    },
+    {
+      "data": "2026-01-01",
+      "endividamento": 31.27,
+      "selic": 14.9,
+      "ipca": 0.33,
+      "desemprego": 5.4
+    }
+  ],
+  "stl": [
+    {
+      "data": "2005-01-01",
+      "tendencia": 14.1767
+    },
+    {
+      "data": "2005-02-01",
+      "tendencia": 14.435
+    },
+    {
+      "data": "2005-03-01",
+      "tendencia": 14.6927
+    },
+    {
+      "data": "2005-04-01",
+      "tendencia": 14.9496
+    },
+    {
+      "data": "2005-05-01",
+      "tendencia": 15.2057
+    },
+    {
+      "data": "2005-06-01",
+      "tendencia": 15.4608
+    },
+    {
+      "data": "2005-07-01",
+      "tendencia": 15.7152
+    },
+    {
+      "data": "2005-08-01",
+      "tendencia": 15.9686
+    },
+    {
+      "data": "2005-09-01",
+      "tendencia": 16.2211
+    },
+    {
+      "data": "2005-10-01",
+      "tendencia": 16.473
+    },
+    {
+      "data": "2005-11-01",
+      "tendencia": 16.7241
+    },
+    {
+      "data": "2005-12-01",
+      "tendencia": 16.9733
+    },
+    {
+      "data": "2006-01-01",
+      "tendencia": 17.2005
+    },
+    {
+      "data": "2006-02-01",
+      "tendencia": 17.4179
+    },
+    {
+      "data": "2006-03-01",
+      "tendencia": 17.6253
+    },
+    {
+      "data": "2006-04-01",
+      "tendencia": 17.8235
+    },
+    {
+      "data": "2006-05-01",
+      "tendencia": 18.0136
+    },
+    {
+      "data": "2006-06-01",
+      "tendencia": 18.1969
+    },
+    {
+      "data": "2006-07-01",
+      "tendencia": 18.3735
+    },
+    {
+      "data": "2006-08-01",
+      "tendencia": 18.5431
+    },
+    {
+      "data": "2006-09-01",
+      "tendencia": 18.7062
+    },
+    {
+      "data": "2006-10-01",
+      "tendencia": 18.8668
+    },
+    {
+      "data": "2006-11-01",
+      "tendencia": 19.0298
+    },
+    {
+      "data": "2006-12-01",
+      "tendencia": 19.198
+    },
+    {
+      "data": "2007-01-01",
+      "tendencia": 19.3739
+    },
+    {
+      "data": "2007-02-01",
+      "tendencia": 19.5582
+    },
+    {
+      "data": "2007-03-01",
+      "tendencia": 19.7503
+    },
+    {
+      "data": "2007-04-01",
+      "tendencia": 19.9498
+    },
+    {
+      "data": "2007-05-01",
+      "tendencia": 20.1557
+    },
+    {
+      "data": "2007-06-01",
+      "tendencia": 20.3664
+    },
+    {
+      "data": "2007-07-01",
+      "tendencia": 20.5811
+    },
+    {
+      "data": "2007-08-01",
+      "tendencia": 20.8
+    },
+    {
+      "data": "2007-09-01",
+      "tendencia": 21.0251
+    },
+    {
+      "data": "2007-10-01",
+      "tendencia": 21.2628
+    },
+    {
+      "data": "2007-11-01",
+      "tendencia": 21.5202
+    },
+    {
+      "data": "2007-12-01",
+      "tendencia": 21.7939
+    },
+    {
+      "data": "2008-01-01",
+      "tendencia": 22.0574
+    },
+    {
+      "data": "2008-02-01",
+      "tendencia": 22.2343
+    },
+    {
+      "data": "2008-03-01",
+      "tendencia": 22.3161
+    },
+    {
+      "data": "2008-04-01",
+      "tendencia": 22.3968
+    },
+    {
+      "data": "2008-05-01",
+      "tendencia": 22.5048
+    },
+    {
+      "data": "2008-06-01",
+      "tendencia": 22.6256
+    },
+    {
+      "data": "2008-07-01",
+      "tendencia": 22.7485
+    },
+    {
+      "data": "2008-08-01",
+      "tendencia": 22.8722
+    },
+    {
+      "data": "2008-09-01",
+      "tendencia": 22.9988
+    },
+    {
+      "data": "2008-10-01",
+      "tendencia": 23.1282
+    },
+    {
+      "data": "2008-11-01",
+      "tendencia": 23.2493
+    },
+    {
+      "data": "2008-12-01",
+      "tendencia": 23.3343
+    },
+    {
+      "data": "2009-01-01",
+      "tendencia": 23.3948
+    },
+    {
+      "data": "2009-02-01",
+      "tendencia": 23.4586
+    },
+    {
+      "data": "2009-03-01",
+      "tendencia": 23.5282
+    },
+    {
+      "data": "2009-04-01",
+      "tendencia": 23.6037
+    },
+    {
+      "data": "2009-05-01",
+      "tendencia": 23.6869
+    },
+    {
+      "data": "2009-06-01",
+      "tendencia": 23.7799
+    },
+    {
+      "data": "2009-07-01",
+      "tendencia": 23.884
+    },
+    {
+      "data": "2009-08-01",
+      "tendencia": 23.9987
+    },
+    {
+      "data": "2009-09-01",
+      "tendencia": 24.1233
+    },
+    {
+      "data": "2009-10-01",
+      "tendencia": 24.2584
+    },
+    {
+      "data": "2009-11-01",
+      "tendencia": 24.4037
+    },
+    {
+      "data": "2009-12-01",
+      "tendencia": 24.5577
+    },
+    {
+      "data": "2010-01-01",
+      "tendencia": 24.7189
+    },
+    {
+      "data": "2010-02-01",
+      "tendencia": 24.8864
+    },
+    {
+      "data": "2010-03-01",
+      "tendencia": 25.0614
+    },
+    {
+      "data": "2010-04-01",
+      "tendencia": 25.2441
+    },
+    {
+      "data": "2010-05-01",
+      "tendencia": 25.4332
+    },
+    {
+      "data": "2010-06-01",
+      "tendencia": 25.627
+    },
+    {
+      "data": "2010-07-01",
+      "tendencia": 25.8242
+    },
+    {
+      "data": "2010-08-01",
+      "tendencia": 26.0207
+    },
+    {
+      "data": "2010-09-01",
+      "tendencia": 26.2097
+    },
+    {
+      "data": "2010-10-01",
+      "tendencia": 26.3842
+    },
+    {
+      "data": "2010-11-01",
+      "tendencia": 26.5438
+    },
+    {
+      "data": "2010-12-01",
+      "tendencia": 26.694
+    },
+    {
+      "data": "2011-01-01",
+      "tendencia": 26.8375
+    },
+    {
+      "data": "2011-02-01",
+      "tendencia": 26.9714
+    },
+    {
+      "data": "2011-03-01",
+      "tendencia": 27.0926
+    },
+    {
+      "data": "2011-04-01",
+      "tendencia": 27.2006
+    },
+    {
+      "data": "2011-05-01",
+      "tendencia": 27.2975
+    },
+    {
+      "data": "2011-06-01",
+      "tendencia": 27.386
+    },
+    {
+      "data": "2011-07-01",
+      "tendencia": 27.4657
+    },
+    {
+      "data": "2011-08-01",
+      "tendencia": 27.5337
+    },
+    {
+      "data": "2011-09-01",
+      "tendencia": 27.5874
+    },
+    {
+      "data": "2011-10-01",
+      "tendencia": 27.6256
+    },
+    {
+      "data": "2011-11-01",
+      "tendencia": 27.6493
+    },
+    {
+      "data": "2011-12-01",
+      "tendencia": 27.6592
+    },
+    {
+      "data": "2012-01-01",
+      "tendencia": 27.6584
+    },
+    {
+      "data": "2012-02-01",
+      "tendencia": 27.6503
+    },
+    {
+      "data": "2012-03-01",
+      "tendencia": 27.6354
+    },
+    {
+      "data": "2012-04-01",
+      "tendencia": 27.6126
+    },
+    {
+      "data": "2012-05-01",
+      "tendencia": 27.5818
+    },
+    {
+      "data": "2012-06-01",
+      "tendencia": 27.5441
+    },
+    {
+      "data": "2012-07-01",
+      "tendencia": 27.5017
+    },
+    {
+      "data": "2012-08-01",
+      "tendencia": 27.4552
+    },
+    {
+      "data": "2012-09-01",
+      "tendencia": 27.4027
+    },
+    {
+      "data": "2012-10-01",
+      "tendencia": 27.3429
+    },
+    {
+      "data": "2012-11-01",
+      "tendencia": 27.2755
+    },
+    {
+      "data": "2012-12-01",
+      "tendencia": 27.2011
+    },
+    {
+      "data": "2013-01-01",
+      "tendencia": 27.1204
+    },
+    {
+      "data": "2013-02-01",
+      "tendencia": 27.0335
+    },
+    {
+      "data": "2013-03-01",
+      "tendencia": 26.9404
+    },
+    {
+      "data": "2013-04-01",
+      "tendencia": 26.8409
+    },
+    {
+      "data": "2013-05-01",
+      "tendencia": 26.735
+    },
+    {
+      "data": "2013-06-01",
+      "tendencia": 26.6221
+    },
+    {
+      "data": "2013-07-01",
+      "tendencia": 26.5016
+    },
+    {
+      "data": "2013-08-01",
+      "tendencia": 26.374
+    },
+    {
+      "data": "2013-09-01",
+      "tendencia": 26.2411
+    },
+    {
+      "data": "2013-10-01",
+      "tendencia": 26.105
+    },
+    {
+      "data": "2013-11-01",
+      "tendencia": 25.9682
+    },
+    {
+      "data": "2013-12-01",
+      "tendencia": 25.8333
+    },
+    {
+      "data": "2014-01-01",
+      "tendencia": 25.7026
+    },
+    {
+      "data": "2014-02-01",
+      "tendencia": 25.5767
+    },
+    {
+      "data": "2014-03-01",
+      "tendencia": 25.4564
+    },
+    {
+      "data": "2014-04-01",
+      "tendencia": 25.3429
+    },
+    {
+      "data": "2014-05-01",
+      "tendencia": 25.2374
+    },
+    {
+      "data": "2014-06-01",
+      "tendencia": 25.1409
+    },
+    {
+      "data": "2014-07-01",
+      "tendencia": 25.0541
+    },
+    {
+      "data": "2014-08-01",
+      "tendencia": 24.9769
+    },
+    {
+      "data": "2014-09-01",
+      "tendencia": 24.9087
+    },
+    {
+      "data": "2014-10-01",
+      "tendencia": 24.8491
+    },
+    {
+      "data": "2014-11-01",
+      "tendencia": 24.7973
+    },
+    {
+      "data": "2014-12-01",
+      "tendencia": 24.7524
+    },
+    {
+      "data": "2015-01-01",
+      "tendencia": 24.7137
+    },
+    {
+      "data": "2015-02-01",
+      "tendencia": 24.679
+    },
+    {
+      "data": "2015-03-01",
+      "tendencia": 24.6414
+    },
+    {
+      "data": "2015-04-01",
+      "tendencia": 24.5905
+    },
+    {
+      "data": "2015-05-01",
+      "tendencia": 24.5222
+    },
+    {
+      "data": "2015-06-01",
+      "tendencia": 24.4417
+    },
+    {
+      "data": "2015-07-01",
+      "tendencia": 24.3551
+    },
+    {
+      "data": "2015-08-01",
+      "tendencia": 24.265
+    },
+    {
+      "data": "2015-09-01",
+      "tendencia": 24.1707
+    },
+    {
+      "data": "2015-10-01",
+      "tendencia": 24.0712
+    },
+    {
+      "data": "2015-11-01",
+      "tendencia": 23.9662
+    },
+    {
+      "data": "2015-12-01",
+      "tendencia": 23.856
+    },
+    {
+      "data": "2016-01-01",
+      "tendencia": 23.7404
+    },
+    {
+      "data": "2016-02-01",
+      "tendencia": 23.6177
+    },
+    {
+      "data": "2016-03-01",
+      "tendencia": 23.4854
+    },
+    {
+      "data": "2016-04-01",
+      "tendencia": 23.3435
+    },
+    {
+      "data": "2016-05-01",
+      "tendencia": 23.1978
+    },
+    {
+      "data": "2016-06-01",
+      "tendencia": 23.0543
+    },
+    {
+      "data": "2016-07-01",
+      "tendencia": 22.9143
+    },
+    {
+      "data": "2016-08-01",
+      "tendencia": 22.7777
+    },
+    {
+      "data": "2016-09-01",
+      "tendencia": 22.6447
+    },
+    {
+      "data": "2016-10-01",
+      "tendencia": 22.5165
+    },
+    {
+      "data": "2016-11-01",
+      "tendencia": 22.3947
+    },
+    {
+      "data": "2016-12-01",
+      "tendencia": 22.2806
+    },
+    {
+      "data": "2017-01-01",
+      "tendencia": 22.1756
+    },
+    {
+      "data": "2017-02-01",
+      "tendencia": 22.0806
+    },
+    {
+      "data": "2017-03-01",
+      "tendencia": 21.9958
+    },
+    {
+      "data": "2017-04-01",
+      "tendencia": 21.9216
+    },
+    {
+      "data": "2017-05-01",
+      "tendencia": 21.8578
+    },
+    {
+      "data": "2017-06-01",
+      "tendencia": 21.8055
+    },
+    {
+      "data": "2017-07-01",
+      "tendencia": 21.7667
+    },
+    {
+      "data": "2017-08-01",
+      "tendencia": 21.743
+    },
+    {
+      "data": "2017-09-01",
+      "tendencia": 21.7342
+    },
+    {
+      "data": "2017-10-01",
+      "tendencia": 21.7391
+    },
+    {
+      "data": "2017-11-01",
+      "tendencia": 21.7566
+    },
+    {
+      "data": "2017-12-01",
+      "tendencia": 21.7863
+    },
+    {
+      "data": "2018-01-01",
+      "tendencia": 21.8289
+    },
+    {
+      "data": "2018-02-01",
+      "tendencia": 21.8869
+    },
+    {
+      "data": "2018-03-01",
+      "tendencia": 21.9641
+    },
+    {
+      "data": "2018-04-01",
+      "tendencia": 22.0628
+    },
+    {
+      "data": "2018-05-01",
+      "tendencia": 22.1806
+    },
+    {
+      "data": "2018-06-01",
+      "tendencia": 22.3129
+    },
+    {
+      "data": "2018-07-01",
+      "tendencia": 22.4562
+    },
+    {
+      "data": "2018-08-01",
+      "tendencia": 22.6088
+    },
+    {
+      "data": "2018-09-01",
+      "tendencia": 22.7698
+    },
+    {
+      "data": "2018-10-01",
+      "tendencia": 22.9377
+    },
+    {
+      "data": "2018-11-01",
+      "tendencia": 23.1106
+    },
+    {
+      "data": "2018-12-01",
+      "tendencia": 23.2873
+    },
+    {
+      "data": "2019-01-01",
+      "tendencia": 23.4679
+    },
+    {
+      "data": "2019-02-01",
+      "tendencia": 23.6542
+    },
+    {
+      "data": "2019-03-01",
+      "tendencia": 23.8469
+    },
+    {
+      "data": "2019-04-01",
+      "tendencia": 24.0424
+    },
+    {
+      "data": "2019-05-01",
+      "tendencia": 24.2353
+    },
+    {
+      "data": "2019-06-01",
+      "tendencia": 24.4219
+    },
+    {
+      "data": "2019-07-01",
+      "tendencia": 24.601
+    },
+    {
+      "data": "2019-08-01",
+      "tendencia": 24.7731
+    },
+    {
+      "data": "2019-09-01",
+      "tendencia": 24.9383
+    },
+    {
+      "data": "2019-10-01",
+      "tendencia": 25.0963
+    },
+    {
+      "data": "2019-11-01",
+      "tendencia": 25.2467
+    },
+    {
+      "data": "2019-12-01",
+      "tendencia": 25.3895
+    },
+    {
+      "data": "2020-01-01",
+      "tendencia": 25.5244
+    },
+    {
+      "data": "2020-02-01",
+      "tendencia": 25.6418
+    },
+    {
+      "data": "2020-03-01",
+      "tendencia": 25.6924
+    },
+    {
+      "data": "2020-04-01",
+      "tendencia": 25.6683
+    },
+    {
+      "data": "2020-05-01",
+      "tendencia": 25.6579
+    },
+    {
+      "data": "2020-06-01",
+      "tendencia": 25.6884
+    },
+    {
+      "data": "2020-07-01",
+      "tendencia": 25.746
+    },
+    {
+      "data": "2020-08-01",
+      "tendencia": 25.8167
+    },
+    {
+      "data": "2020-09-01",
+      "tendencia": 25.8872
+    },
+    {
+      "data": "2020-10-01",
+      "tendencia": 25.9374
+    },
+    {
+      "data": "2020-11-01",
+      "tendencia": 25.9396
+    },
+    {
+      "data": "2020-12-01",
+      "tendencia": 25.8897
+    },
+    {
+      "data": "2021-01-01",
+      "tendencia": 25.8964
+    },
+    {
+      "data": "2021-02-01",
+      "tendencia": 26.0925
+    },
+    {
+      "data": "2021-03-01",
+      "tendencia": 26.3889
+    },
+    {
+      "data": "2021-04-01",
+      "tendencia": 26.6989
+    },
+    {
+      "data": "2021-05-01",
+      "tendencia": 27.0121
+    },
+    {
+      "data": "2021-06-01",
+      "tendencia": 27.3312
+    },
+    {
+      "data": "2021-07-01",
+      "tendencia": 27.6697
+    },
+    {
+      "data": "2021-08-01",
+      "tendencia": 28.0474
+    },
+    {
+      "data": "2021-09-01",
+      "tendencia": 28.408
+    },
+    {
+      "data": "2021-10-01",
+      "tendencia": 28.7323
+    },
+    {
+      "data": "2021-11-01",
+      "tendencia": 29.0346
+    },
+    {
+      "data": "2021-12-01",
+      "tendencia": 29.3249
+    },
+    {
+      "data": "2022-01-01",
+      "tendencia": 29.6126
+    },
+    {
+      "data": "2022-02-01",
+      "tendencia": 29.9273
+    },
+    {
+      "data": "2022-03-01",
+      "tendencia": 30.3436
+    },
+    {
+      "data": "2022-04-01",
+      "tendencia": 30.9256
+    },
+    {
+      "data": "2022-05-01",
+      "tendencia": 31.3479
+    },
+    {
+      "data": "2022-06-01",
+      "tendencia": 31.3894
+    },
+    {
+      "data": "2022-07-01",
+      "tendencia": 31.3487
+    },
+    {
+      "data": "2022-08-01",
+      "tendencia": 31.3004
+    },
+    {
+      "data": "2022-09-01",
+      "tendencia": 31.2469
+    },
+    {
+      "data": "2022-10-01",
+      "tendencia": 31.1877
+    },
+    {
+      "data": "2022-11-01",
+      "tendencia": 31.1213
+    },
+    {
+      "data": "2022-12-01",
+      "tendencia": 31.0473
+    },
+    {
+      "data": "2023-01-01",
+      "tendencia": 30.9667
+    },
+    {
+      "data": "2023-02-01",
+      "tendencia": 30.881
+    },
+    {
+      "data": "2023-03-01",
+      "tendencia": 30.7914
+    },
+    {
+      "data": "2023-04-01",
+      "tendencia": 30.6993
+    },
+    {
+      "data": "2023-05-01",
+      "tendencia": 30.6075
+    },
+    {
+      "data": "2023-06-01",
+      "tendencia": 30.5183
+    },
+    {
+      "data": "2023-07-01",
+      "tendencia": 30.4323
+    },
+    {
+      "data": "2023-08-01",
+      "tendencia": 30.3498
+    },
+    {
+      "data": "2023-09-01",
+      "tendencia": 30.2726
+    },
+    {
+      "data": "2023-10-01",
+      "tendencia": 30.203
+    },
+    {
+      "data": "2023-11-01",
+      "tendencia": 30.1434
+    },
+    {
+      "data": "2023-12-01",
+      "tendencia": 30.0955
+    },
+    {
+      "data": "2024-01-01",
+      "tendencia": 30.0604
+    },
+    {
+      "data": "2024-02-01",
+      "tendencia": 30.0382
+    },
+    {
+      "data": "2024-03-01",
+      "tendencia": 30.0281
+    },
+    {
+      "data": "2024-04-01",
+      "tendencia": 30.0287
+    },
+    {
+      "data": "2024-05-01",
+      "tendencia": 30.0397
+    },
+    {
+      "data": "2024-06-01",
+      "tendencia": 30.0601
+    },
+    {
+      "data": "2024-07-01",
+      "tendencia": 30.0899
+    },
+    {
+      "data": "2024-08-01",
+      "tendencia": 30.1279
+    },
+    {
+      "data": "2024-09-01",
+      "tendencia": 30.1723
+    },
+    {
+      "data": "2024-10-01",
+      "tendencia": 30.2214
+    },
+    {
+      "data": "2024-11-01",
+      "tendencia": 30.274
+    },
+    {
+      "data": "2024-12-01",
+      "tendencia": 30.3296
+    },
+    {
+      "data": "2025-01-01",
+      "tendencia": 30.3881
+    },
+    {
+      "data": "2025-02-01",
+      "tendencia": 30.4488
+    },
+    {
+      "data": "2025-03-01",
+      "tendencia": 30.5147
+    },
+    {
+      "data": "2025-04-01",
+      "tendencia": 30.5807
+    },
+    {
+      "data": "2025-05-01",
+      "tendencia": 30.6465
+    },
+    {
+      "data": "2025-06-01",
+      "tendencia": 30.7123
+    },
+    {
+      "data": "2025-07-01",
+      "tendencia": 30.7781
+    },
+    {
+      "data": "2025-08-01",
+      "tendencia": 30.8441
+    },
+    {
+      "data": "2025-09-01",
+      "tendencia": 30.9101
+    },
+    {
+      "data": "2025-10-01",
+      "tendencia": 30.9762
+    },
+    {
+      "data": "2025-11-01",
+      "tendencia": 31.0425
+    },
+    {
+      "data": "2025-12-01",
+      "tendencia": 31.109
+    },
+    {
+      "data": "2026-01-01",
+      "tendencia": 31.1755
+    }
+  ],
+  "eventos": [
+    {
+      "data": "2008-09-01",
+      "label": "Crise financeira global"
+    },
+    {
+      "data": "2011-07-01",
+      "label": "Pico histórico pré-recessão"
+    },
+    {
+      "data": "2014-12-01",
+      "label": "Início da recessão brasileira"
+    },
+    {
+      "data": "2016-05-01",
+      "label": "Impeachment Dilma Rousseff"
+    },
+    {
+      "data": "2020-03-01",
+      "label": "Pandemia COVID-19"
+    },
+    {
+      "data": "2020-08-01",
+      "label": "Pico do auxílio emergencial"
+    },
+    {
+      "data": "2022-08-01",
+      "label": "Selic a 13,75% ao ano"
+    },
+    {
+      "data": "2023-06-01",
+      "label": "Crise Americanas / crédito"
+    }
+  ],
+  "correlacoes": {
+    "selic": {
+      "lag_0": {
+        "r": -0.2494,
+        "p": 6e-05
+      },
+      "lag_1": {
+        "r": -0.2662,
+        "p": 1.8e-05
+      },
+      "lag_3": {
+        "r": -0.3053,
+        "p": 1e-06
+      },
+      "lag_6": {
+        "r": -0.3725,
+        "p": 0.0
+      },
+      "lag_12": {
+        "r": -0.5096,
+        "p": 0.0
+      }
+    },
+    "ipca": {
+      "lag_0": {
+        "r": 0.1047,
+        "p": 0.096715
+      },
+      "lag_1": {
+        "r": 0.1171,
+        "p": 0.063515
+      },
+      "lag_3": {
+        "r": 0.1315,
+        "p": 0.037674
+      },
+      "lag_6": {
+        "r": 0.1508,
+        "p": 0.017697
+      },
+      "lag_12": {
+        "r": 0.1299,
+        "p": 0.043886
+      }
+    },
+    "desemprego": {
+      "lag_0": {
+        "r": -0.5736,
+        "p": 0.0
+      },
+      "lag_1": {
+        "r": -0.5405,
+        "p": 0.0
+      },
+      "lag_3": {
+        "r": -0.4641,
+        "p": 0.0
+      },
+      "lag_6": {
+        "r": -0.3383,
+        "p": 1.1e-05
+      },
+      "lag_12": {
+        "r": -0.0963,
+        "p": 0.233024
+      }
+    }
+  },
+  "estatisticas": {
+    "atual": 31.27,
+    "data_atual": "Jan/2026",
+    "media": 25.03,
+    "mediana": 24.83,
+    "max": 31.54,
+    "min": 13.84,
+    "data_max": "2022-10",
+    "data_min": "2005-01",
+    "var_total": 17.43
+  }
+}

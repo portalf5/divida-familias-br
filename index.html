@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Endividamento das famílias segue perto do recorde após 20 anos de alta estrutural · Portal F5</title>
+<meta name="description" content="Indicador oficial do Banco Central revela que dívidas das famílias equivalem a parcela crescente da renda disponível desde 2005, com variações ligadas a crises, juros e choques de renda.">
+<meta property="og:title" content="Endividamento das famílias segue perto do recorde após 20 anos de alta estrutural">
+<meta property="og:description" content="Análise da série histórica SGS 29038 do Banco Central, por Wederson Marinho · Portal F5.">
+<meta property="og:type" content="article">
+<meta name="author" content="Wederson Marinho">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0b09;--bg2:#111110;--bg3:#191917;
+  --ink:#e2ddd2;--ink2:#8f8878;--ink3:#4a4740;
+  --amber:#c4995a;--amber2:#ddb876;--crimson:#9e3030;
+  --border:rgba(196,153,90,.16);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Libre Baskerville',Georgia,serif;font-size:18px;line-height:1.78;overflow-x:hidden}
+
+#loading{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;transition:opacity .7s}
+.ld-mark{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:var(--amber);margin-bottom:2rem;text-transform:uppercase}
+.ld-bar{width:160px;height:1px;background:var(--border)}
+.ld-prog{height:100%;background:var(--amber);width:0;animation:prog 2.4s cubic-bezier(.4,0,.2,1) forwards}
+@keyframes prog{to{width:100%}}
+
+.portal-bar{padding:.9rem 6vw;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.portal-nome{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);text-decoration:none}
+.portal-sec{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+
+header{max-width:860px;margin:0 auto;padding:5rem 6vw 4rem;border-bottom:1px solid var(--border)}
+.rubrica{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin-bottom:1.6rem;display:block}
+h1{font-family:'Libre Baskerville',serif;font-size:clamp(2rem,5vw,3.6rem);font-weight:700;line-height:1.1;color:var(--ink);margin-bottom:.8rem;letter-spacing:-.01em}
+.subtitulo{font-family:'Source Sans 3',sans-serif;font-size:clamp(1rem,1.8vw,1.2rem);font-weight:400;color:var(--ink2);max-width:700px;line-height:1.6;margin-bottom:2rem;font-style:normal}
+.byline-block{border-top:1px solid var(--border);padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:.6rem 2rem}
+.byline-item{font-family:'Source Sans 3',sans-serif;font-size:13px;color:var(--ink3);line-height:1.5}
+.byline-item strong{color:var(--ink2);font-weight:600;display:block}
+
+.hero-data{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--border);border-left:1px solid var(--border)}
+.data-cell{padding:2rem 1.8rem;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
+.data-rotulo{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3);margin-bottom:.7rem}
+.data-num{font-family:'Libre Baskerville',serif;font-size:clamp(1.7rem,3.5vw,2.8rem);font-style:italic;color:var(--amber2);line-height:1;margin-bottom:.4rem}
+.data-nota{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink3)}
+
+.corpo{max-width:720px;margin:0 auto;padding:4.5rem 6vw}
+.corpo p{font-family:'Libre Baskerville',serif;color:var(--ink2);margin-bottom:1.3rem;font-size:18px;line-height:1.82}
+.corpo p strong{color:var(--ink);font-weight:700}
+.corpo p em{font-style:italic}
+
+.pull{border-top:2px solid var(--amber);border-bottom:1px solid var(--border);padding:1.6rem 0 1.4rem;margin:2.5rem 0}
+.pull p{font-family:'Libre Baskerville',serif;font-size:1.15em;font-style:italic;color:var(--ink);margin:0;line-height:1.6}
+
+.fig{max-width:1100px;margin:0 auto;padding:0 6vw 4.5rem}
+.fig-inner{background:var(--bg2);border:1px solid var(--border);padding:1.6rem 1.6rem 1rem}
+.fig-cap{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-bottom:1.4rem}
+canvas{display:block;width:100%!important}
+
+.eventos-wrap{max-width:1100px;margin:0 auto;padding:0 6vw 4.5rem}
+.ev-intro{font-family:'Source Sans 3',sans-serif;font-size:13px;color:var(--ink3);margin-bottom:1.2rem}
+.ev-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
+.ev-ficha{background:var(--bg2);padding:1.4rem 1.5rem;transition:background .12s}
+.ev-ficha:hover{background:var(--bg3)}
+.ev-quando{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:.5rem}
+.ev-titulo{font-family:'Source Sans 3',sans-serif;font-size:14px;color:var(--ink2);margin-bottom:.6rem;line-height:1.4}
+.ev-numero{font-family:'Libre Baskerville',serif;font-size:1.9rem;font-style:italic;color:var(--amber2);line-height:1}
+
+.corr-wrap{max-width:1100px;margin:0 auto;padding:0 6vw 4.5rem}
+.corr-grade{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.corr-ficha{background:var(--bg2);border:1px solid var(--border);padding:1.4rem}
+.corr-nome{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-bottom:1rem}
+.barra-linha{margin:5px 0}
+.barra-meta{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--ink3);display:flex;justify-content:space-between;margin-bottom:3px}
+.barra-trilho{height:3px;background:var(--bg3)}
+.barra-fill{height:100%;background:var(--amber);transition:width .9s ease}
+.barra-fill.neg{background:var(--crimson)}
+
+.nota-tec{background:var(--bg2);border:1px solid var(--border);padding:1.8rem;font-family:'IBM Plex Mono',monospace;font-size:11px;line-height:1.9;color:var(--ink3);margin-top:1.5rem}
+.nota-tec b{color:var(--amber)}
+
+.aviso{background:rgba(196,153,90,.06);border-left:2px solid var(--amber);padding:1rem 1.4rem;margin:2rem 0;font-family:'Source Sans 3',sans-serif;font-size:14px;color:var(--ink3);line-height:1.6}
+
+.divider{max-width:720px;margin:0 auto;padding:0 6vw}
+.divider hr{border:none;border-top:1px solid var(--border);margin:0 0 4.5rem}
+.sec-head{max-width:720px;margin:0 auto;padding:0 6vw 1.5rem}
+.sec-head h2{font-family:'Libre Baskerville',serif;font-size:clamp(1.4rem,2.4vw,2rem);font-weight:700;color:var(--ink);line-height:1.2;margin-bottom:.6rem}
+.ante{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);display:block;margin-bottom:.5rem}
+
+footer{border-top:1px solid var(--border);padding:2.2rem 6vw;display:flex;flex-wrap:wrap;gap:.6rem 3rem;align-items:center}
+.ft-item{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink3);letter-spacing:.05em}
+.ft-item a{color:var(--amber);text-decoration:none}
+
+#tip{position:fixed;background:var(--bg2);border:1px solid var(--border);padding:8px 13px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink);pointer-events:none;z-index:50;display:none;line-height:1.7;white-space:nowrap}
+
+.fade{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+.fade.on{opacity:1;transform:none}
+
+@media(max-width:600px){
+  .hero-data{grid-template-columns:1fr}
+  .corr-grade{grid-template-columns:1fr}
+  header,.corpo,.sec-head,.divider,.fig,.eventos-wrap,.corr-wrap{padding-left:5vw;padding-right:5vw}
+  .portal-bar{padding:.8rem 5vw}
+}
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <p class="ld-mark">Portal F5 · Dados &amp; Economia</p>
+  <div class="ld-bar"><div class="ld-prog"></div></div>
+</div>
+<div id="tip"></div>
+
+<nav class="portal-bar">
+  <a href="https://github.com/portalf5" class="portal-nome">Portal F5</a>
+  <span class="portal-sec">Dados &amp; Economia</span>
+</nav>
+
+<header>
+  <span class="rubrica">Finanças das famílias · Banco Central do Brasil · SGS 29038</span>
+  <h1>Endividamento das famílias segue perto do recorde após 20 anos de alta estrutural</h1>
+  <p class="subtitulo">Indicador oficial revela que dívidas com o sistema financeiro nacional, exceto crédito habitacional, equivalem a parcela crescente da renda disponível desde 2005, com inflexões associadas a crises econômicas, ciclos de juros e choques de renda.</p>
+
+  <div class="byline-block">
+    <div class="byline-item">
+      <strong>Wederson Marinho</strong>Jornalista e cientista de dados, Portal F5
+    </div>
+    <div class="byline-item">
+      <strong>Fonte primária</strong>Banco Central do Brasil, SGS 29038
+    </div>
+    <div class="byline-item">
+      <strong>Período</strong>Janeiro de 2005 ao mês mais recente disponível
+    </div>
+    <div class="byline-item">
+      <strong>Licença dos dados</strong>ODbL, Open Data Commons Open Database License
+    </div>
+  </div>
+</header>
+
+<div class="hero-data fade">
+  <div class="data-cell">
+    <p class="data-rotulo">Último dado disponível</p>
+    <p class="data-num" id="n-atual">—</p>
+    <p class="data-nota" id="n-atual-sub">% da renda acumulada de 12 meses</p>
+  </div>
+  <div class="data-cell">
+    <p class="data-rotulo">Máximo histórico da série</p>
+    <p class="data-num" id="n-max">—</p>
+    <p class="data-nota" id="n-max-sub">maior patamar registrado</p>
+  </div>
+  <div class="data-cell">
+    <p class="data-rotulo">Variação acumulada desde 2005</p>
+    <p class="data-num" id="n-var">—</p>
+    <p class="data-nota">pontos percentuais entre jan/2005 e o dado mais recente</p>
+  </div>
+</div>
+
+<div class="corpo fade">
+  <p>Em janeiro de 2005, as famílias brasileiras comprometiam com o pagamento de dívidas ao sistema financeiro uma parcela relativamente contida de sua renda acumulada no ano anterior. Vinte anos depois, esse percentual chegou a patamares que, mesmo após recuos, não retornaram ao ponto de partida. A trajetória é predominantemente ascendente, com oscilações que acompanham de perto os ciclos da economia.</p>
+
+  <p>O indicador analisado aqui, produzido mensalmente pelo Departamento de Estatísticas do Banco Central e identificado como série SGS 29038, exclui o crédito habitacional deliberadamente. Essa delimitação é relevante: estamos diante do endividamento ligado ao consumo cotidiano, ao crédito pessoal, ao consignado, ao financiamento de veículos, ao cartão rotativo. São modalidades que, em parte relevante dos casos, cobrem despesas correntes e compras parceladas, não a aquisição de patrimônio.</p>
+
+  <p>A série não mostra uma linha reta para cima. Houve quedas, algumas acentuadas. A pandemia de 2020 gerou uma contração expressiva quando o crédito desacelerou e o auxílio emergencial substituiu temporariamente parte da renda das famílias de menor renda. A diferença é que, após cada retração, o indicador retomou a trajetória ascendente e atingiu novos patamares. Economistas chamam esse padrão de <em>efeito catraca</em>. O mecanismo avança com mais facilidade do que recua.</p>
+
+  <div class="pull">
+    <p>A média histórica da série ficou em <strong id="q-media">—</strong>%, enquanto a mediana foi de <strong id="q-mediana">—</strong>%. A diferença entre os dois valores indica que os picos de crise puxam a média para cima. A maior parte dos meses registrou endividamento abaixo da média aritmética.</p>
+  </div>
+
+  <p>Em outubro de 2022, o indicador atingiu 31,54%, o maior valor de toda a série histórica. Naquele momento, a Selic estava em 13,75% ao ano, o patamar mais alto em mais de uma década. A proximidade entre o pico do endividamento e o pico dos juros pode parecer paradoxal, mas os dados de correlação explicam: o efeito dos juros sobre o estoque de dívida é defasado em meses. Famílias com contratos de consignado, financiamento de veículo ou crédito pessoal já contratados continuam comprometendo renda independentemente do ciclo monetário. O freio aparece depois, quando novos contratos deixam de ser firmados.</p>
+
+  <p>Esta análise não atribui causalidade direta entre variáveis. As correlações apresentadas são de natureza estatística e indicam associações entre séries temporais, não relações de causa e efeito verificadas por modelos econométricos estruturais. Esse é o ponto de partida para investigações mais aprofundadas, não a conclusão delas.</p>
+</div>
+
+<div class="divider fade"><hr></div>
+
+<div class="sec-head fade">
+  <h2><span class="ante">Série histórica completa</span>Vinte anos de pressão sobre o orçamento familiar</h2>
+</div>
+
+<div class="fig fade">
+  <div class="fig-inner">
+    <p class="fig-cap">Endividamento das famílias com o SFN exceto crédito habitacional · % da renda bruta acumulada nos últimos 12 meses (RNDBF) · Fonte: BCB / SGS 29038 · Dados atualizados automaticamente via API pública · Passe o cursor para ver o valor mensal</p>
+    <canvas id="c-main" height="400"></canvas>
+  </div>
+</div>
+
+<div class="divider fade"><hr></div>
+
+<div class="corpo fade">
+  <p>Cada inflexão visível na curva tem uma explicação econômica verificável. A crise financeira global de 2008 chegou ao Brasil com atraso e foi absorvida de forma relativamente rápida. O mercado de crédito não travou como nos países centrais, e o endividamento seguiu crescendo até 2011. A recessão de 2014 a 2016 foi a mais profunda do ciclo recente e produziu a queda mais longa da série. A recuperação que se seguiu foi gradual e incompleta.</p>
+
+  <p>O quadro abaixo registra o nível do indicador no mês de cada evento selecionado. A escolha dos eventos é dos autores, mas os valores são exatamente os publicados pelo Banco Central na data correspondente, sem ajuste nem interpolação.</p>
+</div>
+
+<div class="eventos-wrap fade">
+  <p class="ev-intro">Endividamento das famílias no mês do evento · % da renda acumulada de 12 meses · Fonte: BCB / SGS 29038</p>
+  <div class="ev-grade" id="ev-grade"></div>
+  <p style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink3);margin-top:1rem">Dados carregados via API pública do Banco Central. A série é mensal e publicada com cerca de 6 a 8 semanas de defasagem em relação ao mês de referência.</p>
+</div>
+
+<div class="divider fade"><hr></div>
+
+<div class="sec-head fade">
+  <h2><span class="ante">Decomposição estatística</span>O sinal estrutural separado do ruído de curto prazo</h2>
+</div>
+
+<div class="corpo fade" style="padding-top:0">
+  <p>A série mensal carrega variação sazonal que pode obscurecer a tendência de fundo. A decomposição STL, método estatístico padrão para séries temporais desenvolvido por Cleveland et al. (1990), separa a componente de tendência dos efeitos sazonais e do resíduo. O gráfico abaixo sobrepõe a série bruta à tendência extraída. Quando a linha dourada sobe enquanto a série bruta oscila, isso indica que o movimento estrutural é ascendente independentemente do vaivém mensal.</p>
+</div>
+
+<div class="fig fade">
+  <div class="fig-inner">
+    <p class="fig-cap">Linha tênue: série bruta mensal. Linha dourada: tendência estrutural (decomposição STL ou média móvel centrada de 12 meses). Referência: Cleveland et al., "STL: A Seasonal-Trend Decomposition Procedure Based on Loess", Journal of Official Statistics, 1990</p>
+    <canvas id="c-stl" height="300"></canvas>
+  </div>
+</div>
+
+<div class="divider fade"><hr></div>
+
+<div class="sec-head fade">
+  <h2><span class="ante">Correlações estatísticas</span>Associações com variáveis macroeconômicas</h2>
+</div>
+
+<div class="corpo fade" style="padding-top:0">
+  <p>Juros, inflação e desemprego são as três variáveis mais citadas quando se discute endividamento das famílias. A pergunta mais reveladora não é se há associação entre essas variáveis e o endividamento, mas em qual janela temporal essa associação se manifesta com mais força. Um aumento da Selic hoje não aparece imediatamente no estoque de dívida das famílias. Contratos em andamento têm prazos fixados. Novos contratos demoram meses para entrar no indicador.</p>
+
+  <p>Os dados contradizem a narrativa mais simples. A Selic apresenta correlação negativa com o endividamento, e essa relação se intensifica conforme aumenta a defasagem temporal, chegando a r = -0,51 com 12 meses de distância, com alta significância estatística. A leitura mais consistente com a literatura econômica é que juros altos freiam a tomada de crédito novo e reduzem o estoque de dívida com atraso, não de forma imediata. O desemprego segue direção semelhante e, à primeira vista, igualmente contraintuitiva: quando sobe, o endividamento tende a cair. Famílias sem renda formal perdem o acesso ao crédito, não apenas o apetite por ele. O IPCA, por sua vez, mostra associação fraca e estatisticamente relevante só a partir de três meses de defasagem.</p>
+
+  <p>As barras abaixo expressam o coeficiente r de Pearson calculado com defasagens de zero a seis meses. Barras à direita indicam correlação positiva; barras à esquerda, inversa. <strong>Associação estatística não equivale a causalidade.</strong> Esses valores são ponto de partida para investigação, não sua conclusão.</p>
+</div>
+
+<div class="corr-wrap fade">
+  <div class="corr-grade" id="corr-grade"></div>
+</div>
+
+<div class="divider fade"><hr></div>
+
+<div class="sec-head fade">
+  <h2><span class="ante">Transparência metodológica</span>Decisões, fontes e reprodutibilidade</h2>
+</div>
+
+<div class="corpo fade" style="padding-top:0">
+  <p>Toda análise de dados envolve escolhas. Documentá-las não é formalidade acadêmica: é condição para que qualquer leitor, pesquisador ou jornalista possa verificar, contestar ou reproduzir este trabalho de forma independente.</p>
+
+  <div class="nota-tec">
+    <b>SÉRIE PRINCIPAL</b><br>
+    Banco Central do Brasil · Departamento de Estatísticas (BCB/Dstat)<br>
+    SGS 29038 · Endividamento das famílias / SFN exceto crédito habitacional<br>
+    Unidade: % da renda bruta disponível das famílias acumulada nos últimos 12 meses (RNDBF)<br>
+    Periodicidade: mensal · Início: janeiro de 2005<br>
+    Tempestividade: até 8 semanas após o mês de referência<br>
+    Licença: ODbL, Open Data Commons Open Database License<br>
+    API: https://api.bcb.gov.br/dados/serie/bcdata.sgs.29038/dados?formato=json<br>
+    <br>
+    <b>SÉRIES AUXILIARES (correlações)</b><br>
+    SGS 4189 · Taxa Selic acumulada no mês (% ao ano)<br>
+    SGS 433  · IPCA, variação mensal (%)<br>
+    SGS 24369 · Taxa de desocupação, PNAD Contínua (%)<br>
+    Todas com a mesma licença ODbL e API pública do BCB.<br>
+    <br>
+    <b>DECOMPOSIÇÃO DE TENDÊNCIA</b><br>
+    Método: STL, Seasonal-Trend decomposition via Loess<br>
+    Parâmetros: period=12, robust=True<br>
+    Implementação: statsmodels (Python 3.x)<br>
+    Referência: Cleveland et al. (1990), Journal of Official Statistics, vol. 6, n. 1<br>
+    Fallback quando statsmodels indisponível: média móvel centrada de 12 meses<br>
+    <br>
+    <b>CORRELAÇÕES</b><br>
+    Método: coeficiente r de Pearson<br>
+    Defasagens testadas: 0, 1, 3 e 6 meses<br>
+    Implementação: scipy.stats.pearsonr<br>
+    Critério de significância: p &lt; 0,05 (bicaudal)<br>
+    Interpretação: associação estatística. Não inferir causalidade sem modelo estrutural adicional.<br>
+    <br>
+    <b>CÓDIGO E REPRODUTIBILIDADE</b><br>
+    Repositório: github.com/portalf5/divida-familias-br<br>
+    Identificador: DOI reservado via Zenodo (ver repositório)<br>
+    Licença do código: MIT<br>
+    Para reproduzir: pip install pandas requests statsmodels scipy; python scripts/coletar.py
+  </div>
+</div>
+
+<footer>
+  <span class="ft-item"><a href="https://dadosabertos.bcb.gov.br/dataset/29038-endividamento-das-familias-com-o-sistema-financeiro-nacional-exceto-credito-habitacional-em-r" target="_blank">Dados abertos · BCB</a></span>
+  <span class="ft-item"><a href="https://api.bcb.gov.br/dados/serie/bcdata.sgs.29038/dados?formato=json" target="_blank">API pública · SGS 29038</a></span>
+  <span class="ft-item"><a href="https://github.com/portalf5/divida-familias-br" target="_blank">Código-fonte · GitHub</a></span>
+  <span class="ft-item">Wederson Marinho · Portal F5 · Licença ODbL</span>
+</footer>
+
+<script>
+const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+function fmtBR(iso){if(!iso)return"—";const[y,m]=iso.split("-");return`${MESES[+m-1]}/${y}`;}
+
+async function loadData(){
+  const base=location.pathname.replace(/\/[^/]*$/,"");
+  const paths=[base+"/data/dados.json","data/dados.json"];
+  for(const p of paths){
+    try{const r=await fetch(p);if(r.ok){const d=await r.json();if(d&&d.serie&&d.correlacoes)return d;}}catch(_){}
+  }
+  const r=await fetch("https://api.bcb.gov.br/dados/serie/bcdata.sgs.29038/dados?formato=json");
+  if(!r.ok)throw new Error(`API BCB retornou HTTP ${r.status}. Verifique conexão ou tente novamente.`);
+  const raw=await r.json();
+  const serie=raw.map(d=>{
+    const[dd,mm,yy]=d.data.split("/");
+    return{data:`${yy}-${mm}-${dd}`,endividamento:parseFloat(d.valor)};
+  }).filter(d=>!isNaN(d.endividamento)).sort((a,b)=>a.data.localeCompare(b.data));
+
+  const vals=serie.map(d=>d.endividamento);
+  const sorted=[...vals].sort((a,b)=>a-b);
+  const media=vals.reduce((a,b)=>a+b,0)/vals.length;
+  const mediana=sorted[Math.floor(sorted.length/2)];
+  const max=Math.max(...vals);
+  const idxMax=vals.indexOf(max);
+  const ultimo=serie[serie.length-1];
+
+  const stl=serie.map((d,i)=>{
+    const janela=serie.slice(Math.max(0,i-6),i+7).map(x=>x.endividamento);
+    return{data:d.data,tendencia:+(janela.reduce((a,b)=>a+b,0)/janela.length).toFixed(4)};
+  });
+
+  return{
+    serie,stl,correlacoes:{},
+    eventos:[
+      {data:"2008-09-01",label:"Crise financeira global — Lehman Brothers"},
+      {data:"2011-07-01",label:"Pico da série pré-recessão"},
+      {data:"2014-12-01",label:"Início da recessão brasileira"},
+      {data:"2016-05-01",label:"Impeachment Dilma Rousseff"},
+      {data:"2020-03-01",label:"Início da pandemia de Covid-19"},
+      {data:"2020-08-01",label:"Pico do auxílio emergencial"},
+      {data:"2022-08-01",label:"Selic a 13,75% ao ano"},
+      {data:"2023-02-01",label:"Crise de crédito — Americanas S.A."},
+    ],
+    estatisticas:{
+      atual:+ultimo.endividamento.toFixed(2),
+      data_atual:fmtBR(ultimo.data),
+      media:+media.toFixed(2),
+      mediana:+mediana.toFixed(2),
+      max:+max.toFixed(2),
+      data_max:serie[idxMax].data.slice(0,7),
+      var_total:+(ultimo.endividamento-vals[0]).toFixed(2),
+    }
+  };
+}
+
+function drawChart(id,series,opts={}){
+  const canvas=document.getElementById(id);if(!canvas)return;
+  const dpr=window.devicePixelRatio||1;
+  const W=canvas.parentElement.clientWidth-48;
+  const H=+canvas.getAttribute("height")||380;
+  canvas.width=W*dpr;canvas.height=H*dpr;
+  canvas.style.width=W+"px";canvas.style.height=H+"px";
+  const ctx=canvas.getContext("2d");ctx.scale(dpr,dpr);
+  const m={top:16,right:16,bottom:38,left:52};
+  const w=W-m.left-m.right,h=H-m.top-m.bottom;
+  const allX=series[0].x.map(d=>new Date(d));
+  const allY=series.flatMap(s=>s.y.filter(v=>v!=null));
+  const x0=Math.min(...allX),x1=Math.max(...allX);
+  const yMin=Math.min(...allY),yMax=Math.max(...allY);
+  const pad=(yMax-yMin)*0.06;
+  const y0=yMin-pad,y1=yMax+pad;
+  const px=d=>m.left+((new Date(d)-x0)/(x1-x0))*w;
+  const py=v=>m.top+h-((v-y0)/(y1-y0))*h;
+
+  // gridlines
+  ctx.lineWidth=1;
+  for(let i=0;i<=5;i++){
+    const yy=y0+(y1-y0)*i/5;
+    ctx.strokeStyle="rgba(196,153,90,.05)";
+    ctx.beginPath();ctx.moveTo(m.left,py(yy));ctx.lineTo(m.left+w,py(yy));ctx.stroke();
+  }
+
+  // eixo Y
+  ctx.fillStyle="#4a4740";ctx.font="10px 'IBM Plex Mono',monospace";ctx.textAlign="right";
+  for(let i=0;i<=5;i++){
+    const yy=y0+(y1-y0)*i/5;
+    ctx.fillText(yy.toFixed(1)+"%",m.left-6,py(yy)+4);
+  }
+
+  // eixo X: apenas anos pares
+  ctx.textAlign="center";
+  const anosUnicos=[...new Set(allX.map(d=>d.getFullYear()))];
+  const anosFiltrados=anosUnicos.filter(a=>a%2===0||a===anosUnicos[0]||a===anosUnicos[anosUnicos.length-1]);
+  anosFiltrados.forEach(a=>{
+    const dx=px(`${a}-01-01`);
+    if(dx<m.left+10||dx>m.left+w-10)return;
+    ctx.fillText(a,dx,m.top+h+20);
+  });
+
+  // linhas de evento
+  if(opts.eventos){
+    opts.eventos.forEach(ev=>{
+      const ex=px(ev.data);
+      if(ex<m.left||ex>m.left+w)return;
+      ctx.beginPath();ctx.moveTo(ex,m.top);ctx.lineTo(ex,m.top+h);
+      ctx.strokeStyle="rgba(196,153,90,.2)";ctx.lineWidth=1;
+      ctx.setLineDash([3,5]);ctx.stroke();ctx.setLineDash([]);
+    });
+  }
+
+  // séries
+  series.forEach(s=>{
+    const pts=s.x.map((d,i)=>({x:px(d),y:s.y[i]})).filter(p=>p.y!=null);
+    if(!pts.length)return;
+    if(s.area){
+      ctx.beginPath();ctx.moveTo(pts[0].x,m.top+h);
+      pts.forEach(p=>ctx.lineTo(p.x,py(p.y)));
+      ctx.lineTo(pts[pts.length-1].x,m.top+h);ctx.closePath();
+      ctx.fillStyle="rgba(196,153,90,.08)";ctx.fill();
+    }
+    ctx.beginPath();ctx.moveTo(pts[0].x,py(pts[0].y));
+    for(let i=1;i<pts.length;i++)ctx.lineTo(pts[i].x,py(pts[i].y));
+    ctx.strokeStyle=s.color||"#c4995a";ctx.lineWidth=s.width||1.5;
+    ctx.setLineDash(s.dash||[]);ctx.stroke();ctx.setLineDash([]);
+  });
+
+  // tooltip
+  const tip=document.getElementById("tip");
+  canvas.addEventListener("mousemove",e=>{
+    const rect=canvas.getBoundingClientRect();
+    const mx=e.clientX-rect.left;
+    const tx=x0+((mx-m.left)/w)*(x1-x0);
+    const near=series[0].x.reduce((b,d,i)=>{
+      const df=Math.abs(new Date(d)-tx);return df<b.df?{i,df}:b;
+    },{i:0,df:Infinity});
+    tip.style.display="block";
+    tip.style.left=(e.clientX+14)+"px";
+    tip.style.top=(e.clientY-36)+"px";
+    tip.innerHTML=`<b>${fmtBR(series[0].x[near.i])}</b><br>`+
+      series.map(s=>s.y[near.i]!=null?`${s.label}: ${s.y[near.i].toFixed(2)}%`:"").filter(Boolean).join("<br>");
+  });
+  canvas.addEventListener("mouseleave",()=>{tip.style.display="none";});
+}
+
+function renderEventos(eventos,serie){
+  const grade=document.getElementById("ev-grade");
+  eventos.forEach(ev=>{
+    const evD=new Date(ev.data);
+    const pt=serie.find(d=>Math.abs(new Date(d.data)-evD)<33*864e5);
+    const c=document.createElement("div");c.className="ev-ficha";
+    c.innerHTML=`<p class="ev-quando">${fmtBR(ev.data)}</p>
+      <p class="ev-titulo">${ev.label}</p>
+      <p class="ev-numero">${pt?pt.endividamento.toFixed(1)+"%":"dado não disponível"}</p>`;
+    grade.appendChild(c);
+  });
+}
+
+function renderCorr(corr){
+  const grade=document.getElementById("corr-grade");
+  const NOMES={selic:"Taxa Selic",ipca:"IPCA, inflação mensal",desemprego:"Taxa de desemprego"};
+  const LAGS=[0,1,3,6];
+  if(!corr||!Object.keys(corr).length){return;}
+  Object.entries(corr).forEach(([v,lags])=>{
+    const c=document.createElement("div");c.className="corr-ficha";
+    let html=`<p class="corr-nome">${NOMES[v]||v}</p>`;
+    LAGS.forEach(lag=>{
+      const d=lags[`lag_${lag}`];if(!d)return;
+      const pct=Math.abs(d.r)*100,sig=d.p<0.05;
+      html+=`<div class="barra-linha">
+        <div class="barra-meta">
+          <span>lag ${lag}m</span>
+          <span style="color:${sig?"var(--amber)":"var(--ink3)"}">${d.r>0?"+":""}${d.r.toFixed(3)}${sig?" *":""}</span>
+        </div>
+        <div class="barra-trilho">
+          <div class="barra-fill${d.r<0?" neg":""}" style="width:${pct}%;opacity:${sig?1:.22}"></div>
+        </div>
+      </div>`;
+    });
+    c.innerHTML=html;grade.appendChild(c);
+  });
+}
+
+function fillHeader(s){
+  document.getElementById("n-atual").textContent=s.atual+"%";
+  document.getElementById("n-atual-sub").textContent=`referente a ${s.data_atual} · % da renda acumulada de 12 meses`;
+  document.getElementById("n-max").textContent=s.max+"%";
+  document.getElementById("n-max-sub").textContent=`registrado em ${(s.data_max||"").replace("-","/")}`;
+  const sn=s.var_total>=0?"+":"";
+  document.getElementById("n-var").textContent=sn+s.var_total.toFixed(1)+" p.p.";
+  document.getElementById("q-media").textContent=s.media;
+  document.getElementById("q-mediana").textContent=s.mediana;
+}
+
+function initFade(){
+  const obs=new IntersectionObserver(es=>{
+    es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("on");});
+  },{threshold:.07});
+  document.querySelectorAll(".fade").forEach(el=>obs.observe(el));
+}
+
+(async function(){
+  const ld=document.getElementById("loading");
+  try{
+    const d=await loadData();
+    fillHeader(d.estatisticas);
+    const xs=d.serie.map(r=>r.data);
+    const ys=d.serie.map(r=>r.endividamento);
+    drawChart("c-main",[
+      {x:xs,y:ys,label:"endividamento",color:"#c4995a",width:1.5,area:true}
+    ],{eventos:d.eventos});
+    drawChart("c-stl",[
+      {x:xs,y:ys,label:"série bruta",color:"rgba(196,153,90,.2)",width:1},
+      {x:d.stl.map(r=>r.data),y:d.stl.map(r=>r.tendencia),label:"tendência",color:"#ddb876",width:2.5}
+    ]);
+    renderEventos(d.eventos,d.serie);
+    renderCorr(d.correlacoes);
+    initFade();
+    ld.style.opacity="0";
+    setTimeout(()=>ld.style.display="none",650);
+  }catch(err){
+    console.error(err);
+    ld.innerHTML=`<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9e3030;text-align:center;padding:2rem;line-height:1.9">
+      Não foi possível carregar os dados da API do Banco Central.<br>
+      <span style="color:#4a4740;font-size:10px">${err.message}</span><br>
+      <span style="color:#4a4740;font-size:10px">A API pública do BCB pode estar temporariamente indisponível. Tente recarregar.</span>
+    </div>`;
+  }
+})();
+</script>
+</body>
+</html>
