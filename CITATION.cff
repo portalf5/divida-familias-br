@@ -1,0 +1,95 @@
+cff-version: 1.2.0
+title: 'Endividamento das famílias segue perto do recorde após 20 anos de alta estrutural'
+message: >-
+  Se você utilizar estes dados, análises ou visualizações interativas em trabalhos
+  de pesquisa, educacionais ou jornalísticos, favor cite conforme abaixo.
+type: dataset
+authors:
+  - family-names: Marinho
+    given-names: Wederson
+    orcid: 'https://orcid.org/0009-0004-6401-3465'
+    affiliation: 'Portal F5'
+    email: marinho@portalf5.com.br
+repository-code: 'https://github.com/portalf5/divida-familias-br'
+url: 'https://portalf5.github.io/divida-familias-br'
+repository-artifact: 'https://zenodo.org/records/19663836'
+abstract: >-
+  Jornalismo de dados e análise estatística de tendências de endividamento das
+  famílias brasileiras (2005–2026). Utiliza a série oficial SGS 29038 do Banco
+  Central do Brasil para examinar a evolução do endividamento das famílias com o
+  sistema financeiro, excluindo crédito habitacional. Inclui decomposição STL,
+  análise de correlações com variáveis macroeconômicas (Selic, IPCA, desemprego)
+  e interpretação narrativa de tendências estruturais e pontos de inflexão em
+  crises econômicas.
+keywords:
+  - 'endividamento das famílias'
+  - 'Brasil'
+  - 'sistema financeiro'
+  - 'Banco Central do Brasil'
+  - 'SGS 29038'
+  - 'jornalismo de dados'
+  - 'análise de séries temporais'
+  - 'decomposição STL'
+license: ODbL-1.0
+version: 1.0.0
+date-released: '2026-04-20'
+doi: 10.5281/zenodo.19663836
+contact:
+  - family-names: Marinho
+    given-names: Wederson
+    email: marinho@portalf5.com.br
+    affiliation: 'Portal F5 — Jornalismo de Dados & Economia'
+identifiers:
+  - type: url
+    value: 'https://portalf5.github.io/divida-familias-br'
+    description: 'Visualização e análise interativa'
+  - type: doi
+    value: '10.5281/zenodo.19663836'
+    description: 'Record no repositório Zenodo'
+  - type: github
+    value: 'portalf5/divida-familias-br'
+    description: 'Código-fonte e pipeline de análise'
+references:
+  - key: Cleveland1990STL
+    type: journal-article
+    authors:
+      - family-names: Cleveland
+        given-names: Robert B.
+      - family-names: Cleveland
+        given-names: William S.
+      - family-names: McRae
+        given-names: Jean E.
+      - family-names: Terpenning
+        given-names: Ivars
+    title: STL—A Seasonal-Trend Decomposition Procedure Based on Loess
+    journal: Journal of Official Statistics
+    volume: 6
+    issue: 1
+    pages: 3-33
+    year: 1990
+  - key: BCB2024OpenData
+    type: webpage
+    authors:
+      - family-names: Brasil
+        given-names: Banco Central do
+    title: 'Dados Abertos: SGS 29038 — Endividamento das famílias com o Sistema Financeiro Nacional (exceto crédito habitacional)'
+    url: 'https://dadosabertos.bcb.gov.br/dataset/29038-endividamento-das-familias-com-o-sistema-financeiro-nacional-exceto-credito-habitacional-em-r'
+    accessed-date: '2026-04-20'
+  - key: BCB2024API
+    type: software
+    authors:
+      - family-names: Brasil
+        given-names: Banco Central do
+    title: 'API Pública — Dados Abertos BCB'
+    url: 'https://api.bcb.gov.br'
+    version: 1.0
+related-resources:
+  - type: publication
+    description: 'Visualização e análise interativa'
+    url: 'https://portalf5.github.io/divida-familias-br'
+  - type: repository
+    description: 'Repositório GitHub com código-fonte, pipeline de dados e documentação'
+    url: 'https://github.com/portalf5/divida-familias-br'
+  - type: dataset
+    description: 'Versão arquivada em Zenodo com DOI permanente'
+    url: 'https://zenodo.org/records/19663836'
